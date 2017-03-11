@@ -1,0 +1,59 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<style type="text/css">
+    div {
+        padding:8px;
+        border:1px solid;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>jQuery find() example</h1>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#button1").click(function () {
+        $('div').css('background','white');
+        $('#A1').find('.child').css('background','red');
+    });
+    $("#button2").click(function () {
+        $('div').css('background','white');
+        $('#A2').find('.child').css('background','red');
+    });
+    $("#button3").click(function () {
+        $('div').css('background','white');
+        $('#A3').find('.child').css('background','red');
+    });
+});
+</script>
+
+<div id="A1">A1
+    <div class="child">A1-1</div>
+    <div class="child">A1-2</div>
+
+    <div id="A2">A2
+        <div class="child">A2-1</div>
+        <div class="child">A2-2</div>
+
+        <div id="A3">A3
+            <div class="child">A3-1</div>
+            <div class="child">A3-2</div>
+        </div>
+    </div>
+
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<input type="button" value="find #A1" id="button1">
+<input type="button" value="find #A2" id="button2">
+<input type="button" value="find #A3" id="button3">
+
+</body>
+
+</html>

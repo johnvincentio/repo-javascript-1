@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Dialog Example - Advanced!</title>
+    <link href="jquery-ui.css" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#MyDialog").dialog({
+                autoOpen: false,
+                resizable: false, // prevent resize of the dialog
+                height: 250, // set the height to 150px
+                modal: true, // show a modal overlay in background
+                buttons: {
+                    "Save": function() {
+                        // do your business code here
+                        alert("you pressed save");
+                        $(this).dialog("close");
+                    },
+                    Cancel: function() {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+
+            $("#openDialog").click(function() {
+                $("#MyDialog").dialog("open");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h3>Example 2:</h3>
+    <div id="MyDialog" title="Confirm you request?">
+        <p>
+            Please confirm, Are you sure you want to save your request?</p>
+    </div>
+
+    <button id="openDialog">Click me</button>
+
+</body>
+
+</html>

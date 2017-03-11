@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title></title>
+
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css">
+        <style>
+.hidden {
+ display: none;
+}
+.fancybox-title a {
+ color: #fff;
+}
+body {
+ padding: 20px;
+}
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../fancybox/source/jquery.fancybox.js"></script>
+        <script src="../global.js"></script>
+        <script>
+$(document).ready(function() {
+    $(".fancybox")
+        .attr('rel', 'gallery')
+        .fancybox({
+            beforeLoad: function() {
+                var el, id = $(this.element).data('title-id');
+                if (id) {
+                    el = $('#' + id);
+                    if (el.length) {
+                        this.title = el.html();
+                    }
+                }
+            }
+        });
+});
+        </script>
+    </head>
+    <body>
+
+       <a class="fancybox" rel="gallery" href="#IMAGE_1a#" data-title-id="title-1">
+            <img src="#IMAGE_1b#" alt="" />
+        </a>
+
+        <a class="fancybox" rel="gallery" href="#IMAGE_2a#" data-title-id="title-2">
+            <img src="#IMAGE_2b#" alt="" />
+        </a>
+
+        <div id="title-1" class="hidden">
+            This is 1st title. <a href="http://google.com">google link</a>
+        </div>
+        <div id="title-2" class="hidden">
+            This is 2nd title. <a href="http://oracle.com">oracle link</a>
+        </div>
+
+    </body>
+</html>

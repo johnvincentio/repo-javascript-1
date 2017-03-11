@@ -1,0 +1,26 @@
+body {
+    background-color: #f06e0f;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+#container {
+    background-color: #199fdb;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    
+}
+header p {
+    color: #000;
+    padding-top: 0;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title></title>
+
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css">
+        <style>
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../fancybox/source/jquery.fancybox.js"></script>
+        <script src="../global.js"></script>
+        <script>
+$(document).ready(function() {
+    $(".fancybox")
+        .attr('rel', 'gallery')
+        .fancybox({
+            type: 'iframe',
+            autoSize : false,
+            beforeLoad : function() {
+                this.width  = parseInt(this.element.data('fancybox-width'));
+                this.height = parseInt(this.element.data('fancybox-height'));
+            }
+        });
+});
+        </script>
+    </head>
+    <body>
+
+<a class="fancybox" href="http://fiddle.jshell.net/YtwCt/show/" data-fancybox-width="500" data-fancybox-height="200">Open 500x200</a>
+<br />
+
+<a class="fancybox" href="http://fiddle.jshell.net/YtwCt/show/" data-fancybox-width="200" data-fancybox-height="500">Open 200x500</a>
+
+<div id="test" style="display:none">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar, nulla eu interdum posuere, nisi mauris cursus nisi, nec faucibus nibh urna nec turpis.
+</div>
+
+    </body>
+</html>

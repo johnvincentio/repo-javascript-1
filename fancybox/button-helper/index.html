@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title></title>
+
+        <style>
+        </style>
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css">
+        <link rel="stylesheet" href="../fancybox/source/helpers/jquery.fancybox-buttons.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <a class="fancybox-button" rel="fancybox-button" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+            <img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+        </a>
+        <a class="fancybox-button" rel="fancybox-button" href="http://farm1.staticflickr.com/313/19831416459_5ddd26103e_b.jpg" title="Sgwd Ddwli Uchaf, Brecon Waterfalls (technodean2000)">
+            <img src="http://farm1.staticflickr.com/313/19831416459_5ddd26103e_m.jpg" alt="" />
+        </a>
+        <a class="fancybox-button" rel="fancybox-button" href="http://farm6.staticflickr.com/5444/17679973232_568353a624_b.jpg" title="Golden Manarola (Sanjeev Deo)">
+            <img src="http://farm6.staticflickr.com/5444/17679973232_568353a624_m.jpg" alt="" />
+        </a>
+        <a class="fancybox-button" rel="fancybox-button" href="http://farm8.staticflickr.com/7367/16426879675_e32ac817a8_b.jpg" title="Codirosso spazzacamino (Massimo Greco _Foligno)">
+            <img src="http://farm8.staticflickr.com/7367/16426879675_e32ac817a8_m.jpg" alt="" />
+        </a>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../fancybox/source/jquery.fancybox.js"></script>
+        <script src="../fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+        <script>
+$(document).ready(function() {
+    $(".fancybox-button").fancybox({
+        prevEffect		: 'none',
+        nextEffect		: 'none',
+        closeBtn		: false,
+        helpers		: {
+            title	: { type : 'inside' },
+            buttons	: {}
+        }
+    });
+});
+        </script>
+    </body>
+</html>

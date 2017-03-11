@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+        div {
+            padding: 8px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>jQuery children() example</h1>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#buttonChildren1").click(function() {
+                $('div').css('background', 'white');
+                $('.A1').children().css('background', 'red');
+            });
+
+            $("#buttonChildren2").click(function() {
+                $('div').css('background', 'white');
+                $('.A1').children('.child').css('background', 'red');   /* .child selector */
+            });
+        });
+    </script>
+
+        <div class="A1">
+            <div class="child">A1-1</div>
+            <div class="child">A1-2</div>
+            <div class="orphan">A1-3</div>
+            <div class="child">A1-4</div>
+
+            <div class="A2">
+                <div class="child">A2-1</div>
+                <div class="child">A2-2</div>
+
+                <div class="A3">
+                    <div class="child">A3-1</div>
+                    <div class="child">A3-2</div>
+                </div>
+            </div>
+
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <input type="button" value=".A1 children()" id="buttonChildren1">
+        <input type="button" value=".A1 children(child)" id="buttonChildren2">
+
+    </body>
+
+</html>

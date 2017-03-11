@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>jQuery filter example</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+<h1>jQuery filter example</h1>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#filterSelector").click(function () {
+        $('div').css('background-color', 'white');
+        $("div").filter("#div1").css('background-color', 'blue');
+    });
+    $("#filterFunction").click(function () {
+        $('div').css('background-color', 'white');
+        $('div').filter(function(index) {
+            if (index == 2 || index == 3) { //0 index based
+                return true;
+            }
+        }).css('background-color', 'blue');
+    });
+    $("#filterFunction2").click(function () {
+        $('div').css('background-color', 'white');
+        $('div').filter(function(index) {
+            return $("b", this).length == 1;    /* select div element that contains <b> tag */
+    }).css('background-color', 'blue');
+    });
+});
+</script>
+
+<div id="div1">
+    <b>This is div 1 with 'b' tag</b>
+</div>
+<div id="div2">
+    This is div 2
+</div>
+<div id="div3">
+    <b>This is div 3 with 'b' tag</b>
+</div>
+<div id="div4">
+    This is div 4
+</div>
+
+<br/><br/><br/>
+
+<input type="button" value="filter(selector)" id="filterSelector">
+<input type="button" value="filter(index)" id="filterFunction">
+<input type="button" value="filter(index)+b" id="filterFunction2">
+
+</body>
+</html>

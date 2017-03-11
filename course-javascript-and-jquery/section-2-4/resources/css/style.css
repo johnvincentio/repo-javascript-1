@@ -1,0 +1,105 @@
+
+/* ----------------------------------- */
+/* Basic setup */
+/* ----------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: #f06226;
+	color: #fff;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	text-rendering: optimizeLegibility;
+	overflow: auto;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/* ----------------------------------- */
+/* Container    */
+/* ----------------------------------- */
+
+#container {
+    background-color: #199fdb;
+	width: 60%;
+	margin: 20px auto;
+    padding: 20px;
+}
+
+/* ----------------------------------- */
+/* Header */
+/* ----------------------------------- */
+
+header {
+    text-align: center;
+    border-bottom: 1px dashed #fff;
+}
+
+header h1 {margin: 5px 0;}
+
+header p {
+    color: #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#results h3 {
+    margin-top: 20px;
+    color: #000;
+}
+
+#results span {color: #fff;}
+
+/* ------------- Form --------- */
+
+form h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+input[type='radio'] {margin: 3px 10px;}
+
+input[type=submit] {
+	padding: 10px 13px;
+	font-weight: 200;
+	text-decoration: none;
+	-webkit-transition: background-color 0.2s border 0.2s color 0.2s;
+	transition: background-color 0.2s border 0.2s color 0.2s;
+}
+
+input[type=submit]  {
+	background-color: #e67e22;
+	border: 1px solid #e67e22;
+	color: #fff;
+	margin-right: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active {
+	background-color: #cf6d17;
+}
+
+/* ------- Footer ------- */
+
+footer p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* -------- JavaScript ------*/
+
+.toggle-1 {background-color: red;}

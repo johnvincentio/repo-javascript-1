@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Iframe Example</title>
+</head>
+<body>
+
+<!--
+It is simpler to use the parent property to access the containing document. For example, you can reference a form in the containing document,notice line 9 of the following javascript code.
+The parent keyword can also be used to access global variables or invoke functions in the main document from the document inside the iframe, as the example below demonstrates.
+-->
+
+<h1>References from Iframed Document to its Parent</h1>
+<p>This example demonstrates access from iframed document to containing document.</p>
+<iframe name="ifrm" id="ifrm" src="../iframe/parented.html" width="450" height="250"></iframe>
+
+<form action="#" id="demoForm">
+    <label for="greeting">Enter a Greeting: </label>
+    <input type="text" name="greeting" id="greeting" value="Hello there!" />
+</form>
+
+<script type="text/javascript">
+var counter = 0;
+</script>
+
+</body>
+</html>
+

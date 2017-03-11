@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <style type="text/css">
+        div,
+        p {
+            width: 110px;
+            height: 40px;
+            margin: 2px 8px 2px 8px;
+            float: left;
+            border: 1px blue solid;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>jQuery prev() example</h1>
+
+    <div>This is div 1
+        <div>div 1 child</div>
+    </div>
+    <p>This is paragrah 1</p>
+    <div>This is div 2
+        <div>div 2 child</div>
+    </div>
+    <div id="start">This is div 3
+        <div>div 3 child</div>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <button id="prevButton1">prev()</button>
+    <button id="prevButton2">prev('div')</button>
+    <button id="prevButton3">prev('p')</button>
+    <button id="reset">Reset</button>
+
+    <script type="text/javascript">
+        var $currElement = $("#start");
+        $currElement.css("background", "red");
+
+        $("#prevButton1").click(function() {
+
+            if (!$currElement.prev().length) {
+                alert("No element found!");
+                return false;
+            }
+
+            $currElement = $currElement.prev();
+
+            $("div,p").css("background", "");
+            $currElement.css("background", "red");
+        });
+
+        $("#prevButton2").click(function() {
+
+            if (!$currElement.prev('div').length) {
+                alert("No element found!");
+                return false;
+            }
+
+            $currElement = $currElement.prev('div');
+
+            $("div,p").css("background", "");
+            $currElement.css("background", "red");
+        });
+
+        $("#prevButton3").click(function() {
+
+            if (!$currElement.prev('p').length) {
+                alert("No element found!");
+                return false;
+            }
+
+            $currElement = $currElement.prev('p');
+
+            $("div,p").css("background", "");
+            $currElement.css("background", "red");
+        });
+
+        $("#reset").click(function() {
+            location.reload();
+        });
+    </script>
+</body>
+
+</html>

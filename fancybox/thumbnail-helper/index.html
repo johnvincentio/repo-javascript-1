@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title></title>
+
+        <style>
+        </style>
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css">
+        <link rel="stylesheet" href="../fancybox/source/helpers/jquery.fancybox-thumbs.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <a class="fancybox-thumb" rel="fancybox-thumb" href="http://farm6.staticflickr.com/5612/15344856989_449794889d_b.jpg" title="Morning Twilight (Jose Hamra Images)">
+            <img src="http://farm6.staticflickr.com/5612/15344856989_449794889d_m.jpg" alt="" />
+        </a>
+        <a class="fancybox-thumb" rel="fancybox-thumb" href="http://farm8.staticflickr.com/7289/16207238089_0124105172_b.jpg" title="(Eric Goncalves (cathing up again!))">
+            <img src="http://farm8.staticflickr.com/7289/16207238089_0124105172_m.jpg" alt="" />
+        </a>
+        <a class="fancybox-thumb" rel="fancybox-thumb" href="http://farm9.staticflickr.com/8568/16388772452_f4d77a92c7_b.jpg" title="Arctic Paradise (Tom Draxler)">
+            <img src="http://farm9.staticflickr.com/8568/16388772452_f4d77a92c7_m.jpg" alt="" />
+        </a>
+        <a class="fancybox-thumb" rel="fancybox-thumb" href="http://farm8.staticflickr.com/7308/15783866983_27160395b9_b.jpg" title="Rodeo Dusk (_JonathanMitchellPhotography_)">
+            <img src="http://farm8.staticflickr.com/7308/15783866983_27160395b9_m.jpg" alt="" />
+        </a>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../fancybox/source/jquery.fancybox.js"></script>
+        <script src="../fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+        <script>
+$(document).ready(function() {
+    $(".fancybox-thumb").fancybox({
+        prevEffect	: 'none',
+        nextEffect	: 'none',
+        helpers	: {
+            title	: {
+                type: 'outside'
+            },
+            thumbs	: {
+                width	: 50,
+                height	: 50
+            }
+        }
+    });
+});
+        </script>
+    </body>
+</html>

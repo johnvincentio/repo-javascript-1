@@ -1,0 +1,39 @@
+<html>
+<head>
+<style type="text/css">
+    .redColor {
+        background:red;
+    }
+    .blueColor {
+        background:blue;
+    }
+ </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+  <h1>jQuery check if an element has a certain class</h1>
+
+  <div class="redColor">This is a div tag with class name of "redColor"</div>
+
+  <p>
+  <button id="isTest">is('.redColor')</button>
+  <button id="hasClassTest">hasClass('.redColor')</button>
+  <button id="reset">reset</button>
+  </p>
+<script type="text/javascript">
+    $("#isTest").click(function () {
+        if ($('div').is('.redColor')) {
+            $('div').addClass('blueColor');
+        }
+    });
+    $("#hasClassTest").click(function () {
+        if ($('div').hasClass('.redColor')) {
+            $('div').addClass('blueColor');
+        }
+    });
+    $("#reset").click(function () {
+        location.reload();
+    });
+</script>
+</body>
+</html>

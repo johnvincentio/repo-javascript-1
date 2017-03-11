@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <style type="text/css">
+        .textClass {
+            padding: 8px;
+            border: 1px solid blue;
+            margin-bottom: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>jQuery text() example</h1>
+
+    <div class="textClass">Text ABC ....</div>
+
+    <div class="textClass">Text ABC 2....</div>
+
+    <p>
+        <button id="getText">text()</button>
+        <button id="setText">text('xxx')</button>
+        <button id="reset">reset</button>
+    </p>
+    <script type="text/javascript">
+        $("#getText").click(function() {
+            alert($('.textClass').text());
+        });
+
+        $("#setText").click(function() {
+            $('.textClass').text('<b>This is a new text</b>');
+        });
+
+        $("#reset").click(function() {
+            location.reload();
+        });
+    </script>
+</body>
+
+</html>

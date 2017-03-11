@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title></title>
+
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css">
+        <style>
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../fancybox/source/jquery.fancybox.js"></script>
+        <script src="../global.js"></script>
+<!--
+        <script>
+            console.log ("variables: "+variables["IMAGE_1a"]);
+        </script>
+        https://c2.staticflickr.com/2/1547/23938441813_f9ed50cc8b_o.jpg
+-->
+        <script>
+$(document).ready(function() {
+    $(".open_fancybox").click(function() {
+        console.log("in open-fancybox");
+        console.log ("(2) variables: "+variables["IMAGE_1a"]);
+        $.fancybox.open([
+            {
+                href : 'imgs/1_b.jpg',
+                title : '1st title'
+            },
+            {
+                href : 'imgs/2_b.jpg',
+                title : '2nd title'
+            },
+            {
+                href : 'imgs/3_b.jpg',
+                title : '3rd title'
+            }
+        ], {
+            padding : 0
+        });
+        return false;
+    });
+});
+        </script>
+    </head>
+    <body>
+
+       <a class="open_fancybox" href="imgs/1_b.jpg">
+           <img src="imgs/1_s.jpg" alt=""/>
+        </a>
+
+<!--
+        <a class="open_fancybox" href="#IMAGE_1a#">
+            <img src="#IMAGE_1b#" alt=""/>
+        </a>
+-->
+
+    </body>
+</html>
+
+
+

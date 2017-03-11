@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title></title>
+
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css">
+        <style>
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../fancybox/source/jquery.fancybox.js"></script>
+        <script src="../global.js"></script>
+        <script>
+$(document).ready(function() {
+    $(".fancybox").fancybox({
+        helpers : {
+            overlay : {
+                css : {
+                    'background' : 'rgba(58, 42, 45, 0.7)'
+                }
+            }
+        }
+    });
+});
+        </script>
+    </head>
+    <body>
+
+        <a class="fancybox" rel="gallery" href="#IMAGE_1a#" title="#TITLES_1#">
+            <img src="#IMAGE_1b#" alt="" />
+        </a>
+
+        <a class="fancybox" rel="gallery" href="#IMAGE_2a#" title="#TITLES_2#">
+            <img src="#IMAGE_2b#" alt="" />
+        </a>
+
+         <a class="fancybox" rel="gallery" href="#IMAGE_3a#" title="#TITLES_3#">
+            <img src="#IMAGE_3b#" alt="" />
+        </a>
+
+        <a class="fancybox" rel="gallery" href="#IMAGE_4a#" title="#TITLES_4#">
+            <img src="#IMAGE_4b#" alt="" />
+        </a>
+
+    </body>
+</html>

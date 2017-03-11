@@ -1,0 +1,6 @@
+
+127.0.0.1       www.example-petstore.com
+127.0.0.1       www.mysite.com
+
+http://www.example-petstore.com:8020/GA-1/a1.html
+http://www.mysite.com:8020/GA-1/a1.html

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Iframe Example</title>
+</head>
+<body>
+
+<!--
+On this page, JavaScript is used to create an iframe element and insert it into the document. The createElement method is used to dynamically generate the iframe. Either the appendChild or insertBefore method can be used to place the iframe in the document. The setAttribute method can be used to add id, src, and other attributes.Following html and javascript demonstrates the dynamically generating of Iframe.
+-->
+
+<h1>Dynamically Generating an Iframe</h1>
+<p id="marker" class="end">Iframes Examples</p>
+
+<script type="text/javascript">
+(function() {
+    var ifrm = document.createElement('iframe');
+    ifrm.setAttribute('id', 'ifrm');
+
+    // to place before another page element
+    var el = document.getElementById('marker');
+    el.parentNode.insertBefore(ifrm, el);
+
+    ifrm.setAttribute('src', 'http://www.webcodegeeks.com');
+})();
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <style type="text/css">
+        #error {
+            padding: 8px;
+            margin: 16px;
+            border: 1px solid red;
+            width: 200px;
+            height: 50px;
+            background-color: #3ad0e3;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>function inside jQuery code</h1>
+
+    <div id="error"></div>
+
+    <div>
+        <form action="#">
+            <p>
+                I'm a form ~
+            </p>
+            <input type="submit" value="Submit">
+            <button>Enable Submit Button</button>
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        $('input:submit').click(function() {
+            updateErrorMessage("Please enter a URL");
+        });
+        $('button').click(function() {
+            updateErrorMessage("Please enter a (button) URL");
+        });
+        jQuery(document).ready(function($) {
+            // use global access
+            window.updateErrorMessage = function(msg) {
+                $('#error').html(msg).hide().fadeIn(500);
+            }
+//            function updateErrorMessage(msg) {
+//                $('#error').html(msg).hide().fadeIn(500);
+//            }
+        });
+    </script>
+
+</body>
+
+</html>

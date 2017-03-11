@@ -1,0 +1,10 @@
+
+127.0.0.1       www.example-petstore.com
+127.0.0.1       www.mysite.com
+
+http://www.example-petstore.com:8020/GA-1/a1.html
+http://www.mysite.com:8020/GA-1/a3.html
+
+_gaq.push(['_setAccount', 'UA-27199586-1']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_trackPageview']);

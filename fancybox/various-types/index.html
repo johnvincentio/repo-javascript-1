@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title></title>
+
+        <style>
+        </style>
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <ul class="list">
+            <li>
+                <a class="various fancybox.ajax" href="../fancybox/demo/ajax.txt">Ajax</a>
+            </li>
+            <li>
+                <a class="various" data-fancybox-type="iframe" href="../fancybox/demo/iframe.html">Iframe</a>
+            </li>
+            <li>
+                <a class="various" href="#inline">Inline</a>
+            </li>
+            <li>
+                <a class="various" href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf">SWF</a>
+            </li>
+        </ul>
+
+        <ul class="list">
+            <li>
+                <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">Youtube (iframe)</a>
+            </li>
+            <li>
+                <a class="various fancybox.iframe" href="http://maps.google.com/?output=embed&f=q&source=s_q&hl=en&geocode=&q=London+Eye,+County+Hall,+Westminster+Bridge+Road,+London,+United+Kingdom&hl=lv&ll=51.504155,-0.117749&spn=0.00571,0.016512&sll=56.879635,24.603189&sspn=10.280244,33.815918&vpsrc=6&hq=London+Eye&radius=15000&t=h&z=17">Google maps (iframe)</a>
+            </li>
+            <li>
+                <a class="various" href="/data/non_existing_image.jpg">Non-existing url</a>
+            </li>
+        </ul>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../fancybox/source/jquery.fancybox.js"></script>
+        <script>
+$(document).ready(function() {
+    $(".various").fancybox({
+        maxWidth	: 800,
+        maxHeight	: 600,
+        fitToView	: false,
+        width		: '70%',
+        height		: '70%',
+        autoSize	: false,
+        closeClick	: false,
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
+});
+        </script>
+    </body>
+</html>

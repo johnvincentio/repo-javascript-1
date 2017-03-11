@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title>jQuery / JavaScript</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </head>
+
+    <body>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+    $("#msgid1").html("This is Hello World by JQuery 1<BR>");
+});
+
+$(function() {
+    $("#msgid2").html("This is Hello World by JQuery 2<BR>");
+});
+
+window.onload = function() {
+    document.getElementById('msgid3').innerHTML = "This is Hello World by JavaScript";
+}
+
+</script>
+
+        This is Hello World by HTML
+
+        <div id="msgid1"></div>
+
+        <div id="msgid2"></div>
+
+        <div id="msgid3"></div>
+
+    </body>
+</html>

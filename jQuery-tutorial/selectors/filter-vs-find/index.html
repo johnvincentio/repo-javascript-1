@@ -1,0 +1,49 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<style type="text/css">
+    div {
+        padding:8px;
+        border:1px solid;
+    }
+</style>
+
+</head>
+
+<body>
+
+<h1>jQuery find() vs filter() example</h1>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#filterClick").click(function () {
+        $('div').css('background','white');
+        $('div').filter('#Fruits').css('background','red');
+    });
+    $("#findClick").click(function () {
+        $('div').css('background','white');
+        $('div').find('#Fruits').css('background','red');
+    });
+});
+</script>
+
+<div id="Fruits">
+    Fruits
+    <div id="Apple">Apple</div>
+    <div id="Banana">Banana</div>
+</div>
+
+<div id="Category">
+    Category
+    <div id="Fruits">Fruits</div>
+    <div id="Animals">Animals</div>
+</div>
+
+<br/><br/><br/>
+
+<input type="button" value="filter(Fruits)" id="filterClick">
+<input type="button" value="find(Fruits)" id="findClick">
+
+</body>
+</html>

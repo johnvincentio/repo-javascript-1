@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+        #content {
+            border: 1px solid blue;
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="msg"></div>
+
+    <div id="content">
+    </div>
+
+    <br/>
+    <button id="load1">Load yahoo.com - no error checking</button>
+
+    <button id="load2">Load yahoo.com - with error checking</button>
+
+    <script type="text/javascript">
+        $('#load1').click(function() {
+            $('#msg').text("Loading......");
+            $('#content').load("http://www.yahoo.com", function() {
+                $('#msg').text("");
+            });
+        });
+        $('#load2').click(function() {
+            $('#msg').text("Loading......");
+            $('#content').load("http://www.yahoo.com", function(responseText, statusText, xhr) {
+                $('#msg').text("");
+                if (statusText == "success")
+                    alert("External content loaded successfully!");
+                if (statusText == "error")
+                    alert("Error: " + xhr.status + ": " + xhr.statusText);load
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>

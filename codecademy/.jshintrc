@@ -1,0 +1,11 @@
+{
+    "browser" : true,
+    "jquery" : true,
+    "strict" : false,
+    "unused" : true,
+    "globals": {
+        "$": false,
+        "jQuery": false
+    },
+    "require": true
+}

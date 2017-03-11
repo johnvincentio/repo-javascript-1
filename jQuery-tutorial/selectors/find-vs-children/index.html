@@ -1,0 +1,57 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+        div {
+            padding: 8px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>jQuery find() vs children() example</h1>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#testChildren").click(function() {
+                $('div').css('background', 'white');
+                $('.B1').children('.child').css('background', 'red');
+            });
+
+            $("#testFind").click(function() {
+                $('div').css('background', 'white');
+                $('.B1').find('.child').css('background', 'red');
+            });
+        });
+    </script>
+
+        <div class="B1">
+            <div class="child">B1-1</div>
+            <div class="child">B1-2</div>
+            <div class="orphan">B1-3 - Orphan</div>
+            <div class="child">B1-4</div>
+
+            <div class="B2">
+                <div class="child">B2-1</div>
+                <div class="child">B2-2</div>
+                <div class="orphan">B2-2 - Orphan</div>
+
+                <div class="B3">
+                    <div class="child">B3-1</div>
+                    <div class="orphan">B3-2 - Orphan</div>
+                    <div class="child">B3-3</div>
+                </div>
+            </div>
+
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <input type='button' value='.B1 children(child)' id='testChildren'>
+        <input type='button' value='.B1 find(child)' id='testFind'>
+
+    </body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Iframe Example</title>
+</head>
+<body>
+
+<!--
+You can get a reference to an iframe using getElementById(). You can use that reference to set properties on the iframe, such as style,src and so on.
+-->
+
+<!-- Example 1-->
+<div>
+    <iframe id="ifrm" src="https://www.webcodegeeks.com/" width="500" height="300"></iframe>
+</div>
+<div>
+    <a href="javascript:retrun 0;" onclick="changeIframePro()">change iframe src</a>
+</div>
+
+<script type="text/javascript">
+
+//Example 1
+function changeIframePro(){
+    // reference to iframe with id 'ifrm'
+    var ifrm = document.getElementById('ifrm');
+    //ifrm.style.width = '400px'; // set width
+    ifrm.src = 'http://www.iliastsagklis.com/'; // set src to new url
+}
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title></title>
+
+        <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css">
+        <style>
+.expander {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    background: white url(http://c2.staticflickr.com/2/1618/24196847359_aa6d794ed6_t.png) center center no-repeat;
+    z-index: 99999;
+    cursor: pointer;
+}
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../fancybox/source/jquery.fancybox.js"></script>
+        <script src="https://rawgithub.com/kayahr/jquery-fullscreen-plugin/master/jquery.fullscreen.js"></script>
+        <script src="../global.js"></script>
+        <script>
+$(document).ready(function() {
+    $(".fancybox").fancybox({
+        openEffect: 'none',
+        closeEffect: 'none',
+        afterShow: function() {
+            $('<div class="expander"></div>').appendTo(this.inner).click(function() {
+                $(document).toggleFullScreen();
+            });
+        },
+        afterClose: function() {
+            $(document).fullScreen(false);
+        }
+    });
+
+    $(document).bind("fullscreenerror", function() {
+        alert("Browser rejected fullscreen change");
+    });
+});
+        </script>
+    </head>
+    <body>
+
+        <a class="fancybox" rel="gallery" href="#IMAGE_1a#" title="#TITLES_1#">
+            <img src="#IMAGE_1b#" alt="" />
+        </a>
+
+        <a class="fancybox" rel="gallery" href="#IMAGE_2a#" title="#TITLES_2#">
+            <img src="#IMAGE_2b#" alt="" />
+        </a>
+
+         <a class="fancybox" rel="gallery" href="#IMAGE_3a#" title="#TITLES_3#">
+            <img src="#IMAGE_3b#" alt="" />
+        </a>
+
+        <a class="fancybox" rel="gallery" href="#IMAGE_4a#" title="#TITLES_4#">
+            <img src="#IMAGE_4b#" alt="" />
+        </a>
+
+    </body>
+</html>

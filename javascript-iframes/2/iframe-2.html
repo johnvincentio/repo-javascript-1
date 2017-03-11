@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Iframe Example</title>
+</head>
+<body>
+
+<!--
+The buttons in the following html code will access the iframe data by using contentWindow and contentDocument properties.
+
+The iframe element provides contentWindow and contentDocument properties. The following JavaScript uses these properties to get references to the iframed document’s window and document objects. Once you have references to the window and document objects, you can access virtually any object or property in the iframed document and can access it’s javascript varibales and methods.
+-->
+
+<!-- Example 2-->
+<h1>Accessing an Iframe and its Document and Content</h1>
+<p>This example demonstrates the containing document interacting with the iframe.</p>
+<form id="demoForm" action="#">
+    <p>
+        <input name="button1" type="button" value="Button 1" onclick="button1Handler()"/>
+        <input name="button2" type="button" value="Button 2" onclick="button2Handler()"/>
+        <input name="button3" type="button" value="Button 3" onclick="button3Handler()"/>
+        <input name="button4" type="button" value="Button 4" onclick="button4Handler()"/>
+    </p>
+    <p><input type="text" name="display" size="30" readonly="readonly" /></p>
+</form>
+
+<iframe name="ifrm" id="ifrm" src="../iframe/iframed.html" width="450" height="250"></iframe>
+
+<script type="text/javascript">
+
+//Example 2
+// get reference to the form
+    var form = document.getElementById('demoForm');
+
+    // set height of iframe and display value
+    function button1Handler(){
+        var ifrm = document.getElementById('ifrm');
+        var ht = ifrm.style.height = '200px';
+        form.display.value = 'The iframe\'s height is: ' + ht;
+    }
+
+    // increment and display counter variable contained in iframed document
+    function button2Handler() {
+        // get reference to iframe window
+        var win = document.getElementById('ifrm').contentWindow;
+        var counter = ++win.counter; //  increment
+        form.display.value = 'counter in iframe is: ' + counter;
+    }
+
+    // reference form element in iframed document
+    function button3Handler() {
+        var ifrm = document.getElementById('ifrm');
+        // reference to document in iframe
+        var doc = ifrm.contentDocument? ifrm.contentDocument: ifrm.contentWindow.document;
+        // get reference to greeting text box in iframed document
+        var fld = doc.forms['iframeDemoForm'].elements['greeting'];
+        var val = fld.value;
+        // display value in text box
+        form.display.value = 'The greeting is: ' + val;
+    }
+
+    function button4Handler(){
+        // get reference to iframe window
+        var win = document.getElementById('ifrm').contentWindow;
+        win.clearGreeting(); // call function in iframed document
+    }
+</script>
+
+</body>
+</html>
+

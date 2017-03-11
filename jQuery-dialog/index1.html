@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Dialog Example - Hello World!</title>
+    <link href="jquery-ui.css" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#MyDialog").dialog({
+                autoOpen: false,
+            });
+
+            $("#openDialog").click(function() {
+                $("#MyDialog").dialog("open");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="MyDialog" title="Hello World dialog">
+        <p>This is My Hello World dialog.</p>
+    </div>
+
+    <button id="openDialog">Click me</button>
+
+</body>
+
+</html>
