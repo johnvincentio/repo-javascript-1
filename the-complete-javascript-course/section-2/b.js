@@ -1,9 +1,11 @@
 
 (function() {       // self-executing closure
+
     'use strict';
+
     function printFullAge(years) {
         var myArr = [];
-        for (var i = 0; i < years.length; i++) {
+        for (var i = 0; i < years.length; i += 1) {
             var age = 2016 - years[i];
             var fullAge = (age >= 18);
             myArr.push(fullAge);
@@ -18,12 +20,12 @@
     console.log("full_2 "+full_2);
 
     var ages = [];
-    for (var i = 0; i < years1.length; i++) {
+    for (var i = 0; i < years1.length; i += 1) {
         ages.push(2016 - years1[i]);
     }
-    for (i = 0; i < ages.length; i++) {
-        if (ages[i] >= 18) {
-            console.log("Age :"+ages[i]);
+    for (var j = 0; j < ages.length; j += 1) {
+        if (ages[j] >= 18) {
+            console.log("Age :"+ages[j]);
         }
     }
 })();

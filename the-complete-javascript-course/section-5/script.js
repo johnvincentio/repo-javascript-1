@@ -1,5 +1,7 @@
 /////////////////////////////
 // Lecture: Function constructor
+
+/*
 'use strict';
 
 //var john = {
@@ -8,7 +10,6 @@
 //    job: 'teacher'
 //};
 
-/*
 var Person = function(name, yearOfBirth, job) {
     this.name = name;
     this.yearOfBirth = yearOfBirth;
@@ -18,7 +19,7 @@ var Person = function(name, yearOfBirth, job) {
     };
 };
 
-Person.prototype.calculateAge  = function() {
+Person.prototype.calculateAge = function() {
     console.log(2016 - this.yearOfBirth);
 };
 
@@ -37,6 +38,13 @@ console.log(jane.lastName);
 console.log(mark.lastName);
 
 john.myfunc();
+
+john.hasOwnProperty('job');     // true
+
+john.hasOwnProperty('lastName');     // false
+
+var x = [2, 4, 6];
+console.log(x);
 */
 
 /////////////////////////////

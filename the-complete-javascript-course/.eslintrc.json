@@ -1,0 +1,48 @@
+{
+  "env": {
+    //remove either of the lines below if you don't need it
+    //enable nodejs environment
+    "node": false,
+    //enable browser environment
+    "browser": true,
+    "jquery": true
+  },
+  "globals": {
+    //place settings for globals here, such as
+    "exampleGlobalVariable": true
+  },
+  "rules": {
+    //enable ESLint rules, such as
+    "eqeqeq": 1,
+    "no-console": "off",
+    "camelcase": "off",
+    "no-unused-expressions": "off",
+    "indent": "off",
+    "comma-dangle": ["off"],
+    "prefer-arrow-callback": "off",
+    "strict": "off",
+    "no-var": "off",
+    "vars-on-top": "off",
+    "prefer-template": "off",
+    "quotes": "off",
+    "quote-props": "off",
+    "space-infix-ops": "off",
+    "space-before-function-paren": "off",
+    "object-curly-spacing": "off",
+    "no-shadow": "off",
+    "brace-style": "off",
+    "no-multiple-empty-lines": "off",
+    "max-len": "off",
+    "func-names": "off",
+    "spaced-comment": "off",
+    "wrap-life": "off",
+    "no-multi-str": "off",
+    "padded-blocks": "off",
+    "wrap-iife": "off",
+    "object-shorthand": "off"
+  },
+  "plugins": [
+    //you can put plugins here
+  ],
+  "extends": "airbnb"
+}

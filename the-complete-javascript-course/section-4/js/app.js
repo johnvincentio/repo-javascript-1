@@ -114,6 +114,6 @@ $(function() {
         $currentScore[player].text(score);
     }
     function getRandomInt(from, to) {
-        return Math.floor(Math.random() * (to - from + 1) + from);
+        return Math.floor((Math.random() * (to - from + 1)) + from);
     }
 });

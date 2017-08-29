@@ -210,7 +210,7 @@ var ageMary = calculateAge(1948);
 function yearsUntilRetirement(name, year) {
     var age = calculateAge(year);
     var retirement = 65 - age;
-    
+
     if (retirement >= 0) {
         console.log(name + ' retires in ' + retirement + ' years.');
     } else {
@@ -411,7 +411,7 @@ while(i < names.length) {
 // break and continue
 for (var i = 1; i <= 5; i++) {
     console.log(i);
-    
+
     if (i === 3) {
         break;
     }
@@ -421,7 +421,7 @@ for (var i = 1; i <= 5; i++) {
     if (i === 3) {
         continue;
     }
-    
+
     console.log(i);
 }
 */
@@ -450,7 +450,7 @@ Hint: you can use a loop not only to read from an array, like y[i], but also to 
 function printFullAge(years) {
     var ages = [];
     var fullAges = [];
-    
+
     for (var i = 0; i < years.length; i++) {
         ages[i] = 2016 - years[i];
     }
@@ -464,7 +464,7 @@ function printFullAge(years) {
             fullAges.push(false);
         }
     }
-    
+
     return fullAges;
 }
 

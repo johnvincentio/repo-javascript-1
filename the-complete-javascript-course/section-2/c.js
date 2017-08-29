@@ -1,5 +1,6 @@
 
 (function() {       // self-executing closure
+
     'use strict';
 
     var a = 'hello';

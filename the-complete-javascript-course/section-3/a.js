@@ -1,22 +1,21 @@
 
-/*jslint node: true */
-
 (function() {       // self-executing closure
-    'use strict';   // only applies to this function
 
-var john = {
-    name: 'John',
-    yearOfBirth: 1990,
-    calculateAge: function() {
-        console.log("calculateAge :"+this);
-        console.log("calculateAge :"+(2016 - this.yearOfBirth));
+    'use strict';
 
-        function innerFunction() {
-            console.log('innerFunction '+this);
+    var john = {
+        name: 'John',
+        yearOfBirth: 1990,
+        calculateAge: function() {
+            console.log("calculateAge :"+this);
+            console.log("calculateAge :"+(2016 - this.yearOfBirth));
+
+            function innerFunction() {
+                console.log('innerFunction '+this);
+            }
+            innerFunction();
         }
-        innerFunction();
-    }
-};
+    };
 
     john.calculateAge();
 
