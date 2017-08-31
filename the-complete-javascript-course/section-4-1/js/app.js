@@ -20,7 +20,9 @@ Change the game to follow these rules:
 
 $(function() {
 
-    var scores, roundScore, activePlayer = 1;
+    var scores;
+    var roundScore;
+    var activePlayer = 1;
 
     var $new_game = $('.js--new-game');
     var $roll_dice = $('.js--roll-dice');
@@ -33,6 +35,38 @@ $(function() {
     var $panels = [$('div.player-0-panel'), $('div.player-1-panel')];
     var $playerNames = [$('div.player-0-panel .player-name'),
                         $('div.player-1-panel .player-name')];
+
+    function setActiveClass(player, active) {
+        if (active) {
+            $panels[player].addClass('active');
+        }
+        else {
+            $panels[player].removeClass('active');
+        }
+    }
+    function setWinnerClass(player, active) {
+        if (active) {
+            $panels[player].addClass('winner');
+        }
+        else {
+            $panels[player].removeClass('winner');
+        }
+    }
+    function setPlayerText(player, text) {
+        $playerNames[player].text(text);
+    }
+    function togglePlayer() {
+        activePlayer === 0 ? activePlayer = 1 : activePlayer = 0; // jshint ignore:line
+    }
+    function setScore(player, score) {
+        $score[player].text(score);
+    }
+    function setCurrentScore(player, score) {
+        $currentScore[player].text(score);
+    }
+    function getRandomInt(from, to) {
+        return Math.floor((Math.random() * (to - from + 1)) + from);
+    }
 
     function init() {
         $dice[0].hide(); $dice[1].hide();
@@ -62,7 +96,7 @@ $(function() {
         $dice[0].attr('src', 'images/dice-'+die1+'.png');
         $dice[1].attr('src', 'images/dice-'+die2+'.png');
         $dice[0].show(); $dice[1].show();
-        if (die1 === 1 || die2 == 1) {
+        if (die1 === 1 || die2 === 1) {
             $dice[0].hide(1000); $dice[1].hide(1000);
             roundScore = 0;
             setCurrentScore(activePlayer, roundScore);
@@ -96,35 +130,4 @@ $(function() {
 
     init();
 
-    function setActiveClass(player, active) {
-        if (active) {
-            $panels[player].addClass('active');
-        }
-        else {
-            $panels[player].removeClass('active');
-        }
-    }
-    function setWinnerClass(player, active) {
-        if (active) {
-            $panels[player].addClass('winner');
-        }
-        else {
-            $panels[player].removeClass('winner');
-        }
-    }
-    function setPlayerText(player, text) {
-        $playerNames[player].text(text);
-    }
-    function togglePlayer() {
-        activePlayer === 0 ? activePlayer = 1 : activePlayer = 0; // jshint ignore:line
-    }
-    function setScore(player, score) {
-        $score[player].text(score);
-    }
-    function setCurrentScore(player, score) {
-        $currentScore[player].text(score);
-    }
-    function getRandomInt(from, to) {
-        return Math.floor(Math.random() * (to - from + 1) + from);
-    }
 });

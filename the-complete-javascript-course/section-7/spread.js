@@ -38,3 +38,4 @@ const boxes = document.querySelectorAll('.box');
 const all = [h, ...boxes];
 
 Array.from(all).forEach(cur => cur.style.color = 'purple');
+

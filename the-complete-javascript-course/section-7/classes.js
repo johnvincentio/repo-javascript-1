@@ -1,4 +1,3 @@
-/*jshint esnext: true */
 
 'use strict';
 
@@ -31,7 +30,9 @@ class Person6 {
     }
 
     calculateAge() {
-        var age = new Date().getFullYear - this.yearOfBirth;
+        console.log("this.yearOfBirth "+this.yearOfBirth);
+        console.log("new Date().getFullYear "+new Date().getFullYear());
+        var age = new Date().getFullYear() - this.yearOfBirth;
         console.log(age);
     }
 
@@ -43,3 +44,6 @@ class Person6 {
 const john6 = new Person6('John', 1990, 'teacher');
 
 Person6.greeting();
+
+john6.calculateAge();
+

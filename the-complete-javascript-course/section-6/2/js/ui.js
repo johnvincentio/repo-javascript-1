@@ -42,7 +42,7 @@ comma separating the thousands
     };
 
     var monthName = function(dt) {
-        var mlist = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+        var mlist = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
         return mlist[dt.getMonth()];
     };
 
@@ -68,15 +68,15 @@ return '<div class="item js--item clearfix" data-item-type="exp" data-item-id="{
             <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>\
         </div>\
     </div>\
-</div>'.replace('{{1}}',obj.id).replace('{{2}}',obj.description)
-    .replace('{{3}}',formatNumber(obj.value, 'exp'));
+</div>'.replace('{{1}}', obj.id).replace('{{2}}', obj.description)
+    .replace('{{3}}', formatNumber(obj.value, 'exp'));
     };
     return {
         getInput: function() {
             return {
-                type : $DOM.add_type.val(),
-                description : $DOM.add_description.val(),
-                value : parseFloat($DOM.add_value.val())
+                type: $DOM.add_type.val(),
+                description: $DOM.add_description.val(),
+                value: parseFloat($DOM.add_value.val())
             };
         },
 

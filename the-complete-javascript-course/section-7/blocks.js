@@ -18,9 +18,9 @@
 console.log(c);
 
 
-// ES5
-(function() {
-    var c = 3;
-})();
+// // ES5
+// (function() {
+//     var c = 3;
+// })();
 
-console.log(c);
+// console.log(c);

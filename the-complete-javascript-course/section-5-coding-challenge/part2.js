@@ -40,10 +40,8 @@
             console.log("That answer is correct");
             return true;
         }
-        else {
-            console.log("That answer is incorrect");
-            return false;
-        }
+        console.log("That answer is incorrect");
+        return false;
     };
 
     var questions = [];
@@ -61,7 +59,9 @@
     function scoring() {
         var score = 0;
         return function(correct) {
-            if (correct) {score++;}
+            if (correct) {
+                score = +1;
+            }
             return score;
         };
     }
