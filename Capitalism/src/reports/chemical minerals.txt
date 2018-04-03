@@ -1,0 +1,115 @@
+
+
+Natural Resource: Chemical Minerals
+	Semi-Product: Electronic Components
+	Input: Chemical Minerals
+	Input: Silicon
+	Input: Steel
+		Product: Air Conditioner (Electrical Products)
+			Input: Electronic Components
+			Input: Steel
+		Product: Camera (Photography)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Desktop Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Steel
+		Product: Dvd Player (Electronics)
+			Input: Aluminum
+			Input: Electronic Components
+		Product: Hand Held Game Device (Toys & Video Games)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Hi Fi (Electrical Products)
+			Input: Aluminum
+			Input: Electronic Components
+			Input: Steel
+		Product: Microwave (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Mobile Phone (Electronics)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Notebook Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Plastic
+		Product: Palm Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Plastic
+		Product: Printer (Computer Industry)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Sports Watch (Watches)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Television (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Toy Racing Car (Toys & Video Games)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Video Camera (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Video Game Console (Toys & Video Games)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Video Recorder (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Steel
+	Semi-Product: Polyester
+	Input: Oil
+	Input: Chemical Minerals
+		Product: Backpack (Sports Equipment)
+			Input: Linen
+			Input: Polyester
+		Product: Sport Shoes (Footwear)
+			Input: Cotton
+			Input: Rubber
+			Input: Polyester
+	Product: Bath Lotion (Bath Supplies)
+		Input: Chemical Minerals
+		Input: Coconut Oil
+		Input: Plastic
+	Product: Camera Film (Photography)
+		Input: Chemical Minerals
+		Input: Silver
+		Input: Plastic
+	Product: Cold Tablets (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Cough Syrup (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Detergent (Chemical Products)
+		Input: Chemical Minerals
+		Input: Citric Acid
+		Input: Plastic
+	Product: Eye Shadow (Cosmetics)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Headache Pills (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Perfume (Cosmetics)
+		Input: Chemical Minerals
+		Input: Glass
+	Product: Shampoo (Bath Supplies)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Toilet Cleaner (Chemical Products)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Toothpaste (Chemical Products)
+		Input: Chemical Minerals
+		Input: Plastic

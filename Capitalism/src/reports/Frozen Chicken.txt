@@ -1,0 +1,4 @@
+
+ Product   Frozen Chicken
+	Product: Frozen Chicken (Livestock Products)
+	Input:  Chicken Farm

@@ -1,0 +1,5 @@
+
+
+Natural Resource: Gold
+	Product: Gold Ring (Jewelry)
+		Input: Gold

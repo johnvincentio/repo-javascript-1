@@ -1,0 +1,9 @@
+
+
+Natural Resource: Silver
+	Product: Camera Film (Photography)
+		Input: Chemical Minerals
+		Input: Silver
+		Input: Plastic
+	Product: Silver Necklace (Jewelry)
+		Input: Silver

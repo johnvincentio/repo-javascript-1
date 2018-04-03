@@ -1,0 +1,35 @@
+#!/bin/sh
+#
+#  script to grant user access to Prestige tables
+#
+INPUT='./data.txt'
+# INPUT='./x1.x'
+#
+OUTPUT='./output.txt'
+
+echo " " > $OUTPUT
+
+cat $INPUT | while read LINE
+do
+	P_PRODUCT=`echo $LINE | awk -F':' '{print $1}'`
+	P_2=`echo $LINE | awk -F':' '{print $2}'`
+	# echo "P_PRODUCT $P_PRODUCT"
+	# echo "P_2 $P_2"
+	echo "{" >> $OUTPUT
+	echo "\tproduct: '$P_PRODUCT'," >> $OUTPUT
+	echo "\ttype: [" >> $OUTPUT
+
+	OIFS="$IFS"
+	IFS=","
+	for v in $P_2
+	do
+		# echo "v is $v"
+		echo "\t\t'$v'," >> $OUTPUT
+	done
+	IFS="$OIFS"
+
+	echo "\t]" >> $OUTPUT
+	echo "}," >> $OUTPUT
+done
+
+# cat $OUTPUT | more

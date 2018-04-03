@@ -1,0 +1,55 @@
+
+
+Semi Product: Glass
+	Semi-Product: Car Body
+	Input: Glass
+	Input: Plastic
+	Input: Steel
+		Product: Car (Automotive)
+			Input: Car Body
+			Input: Engine
+			Input: Wheel & Tire
+	Product: Bottled Milk (Beverages)
+		Input: Milk
+		Input: Glass
+	Product: Camera (Photography)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Elegant Watch (Watches)
+		Input: Glass
+		Input: Steel
+	Product: Grape Juice (Beverages)
+		Input: Grapes
+		Input: Citric Acid
+		Input: Glass
+	Product: Hand Held Game Device (Toys & Video Games)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Microwave (Electrical Products)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Perfume (Cosmetics)
+		Input: Chemical Minerals
+		Input: Glass
+	Product: Sports Watch (Watches)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Television (Electrical Products)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Video Camera (Electronics)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Video Recorder (Electronics)
+		Input: Electronic Components
+		Input: Glass
+		Input: Steel
+	Product: Wine (Beverages)
+		Input: Grapes
+		Input: Glass

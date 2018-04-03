@@ -1,0 +1,6 @@
+
+ Product   Cakes
+	Product: Cakes (Dessert)
+	Input:  Eggs
+	Input:  Cocoa
+	Input:  Flour

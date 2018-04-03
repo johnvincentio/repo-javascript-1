@@ -1,0 +1,15 @@
+
+
+Semi Product: Cpu
+	Product: Desktop Computer (Computer Industry)
+		Input: Cpu
+		Input: Electronic Components
+		Input: Steel
+	Product: Notebook Computer (Computer Industry)
+		Input: Cpu
+		Input: Electronic Components
+		Input: Plastic
+	Product: Palm Computer (Computer Industry)
+		Input: Cpu
+		Input: Electronic Components
+		Input: Plastic

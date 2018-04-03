@@ -1,0 +1,192 @@
+
+
+Crops: Cocoa (Sow: April, Harvest: October)
+	Product: Cakes (Dessert)
+		Input: Eggs
+		Input: Cocoa
+		Input: Flour
+	Product: Chocolate Bar (Snacks)
+		Input: Milk
+		Input: Cocoa
+
+
+Crops: Coconut (Sow: August, Harvest: April)
+	Semi-Product: Coconut Oil
+	Input: Coconut
+		Product: Bath Lotion (Bath Supplies)
+			Input: Chemical Minerals
+			Input: Coconut Oil
+			Input: Plastic
+		Product: Soap (Bath Supplies)
+			Input: Citric Acid
+			Input: Coconut Oil
+			Input: Paper
+
+
+Crops: Corn (Sow: August, Harvest: April)
+	Semi-Product: Corn Syrup
+	Input: Corn
+		Product: Chewing Gum (Snacks)
+			Input: Corn Syrup
+			Input: Sugar
+	Product: Canned Corn (Food)
+		Input: Corn
+	Product: Corn Flakes (Food)
+		Input: Corn
+		Input: Sugar
+
+
+Crops: Cotton (Sow: February, Harvest: June)
+	Semi-Product: Textiles
+	Input: Cotton
+		Product: Chair (Furniture)
+			Input: Timber
+			Input: Textiles
+		Product: Jeans (Apparel)
+			Input: Dyestuff
+			Input: Textiles
+		Product: Leather Bag (Leather Goods)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Briefcase (Leather Goods)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Jacket (Apparel)
+			Input: Leather
+			Input: Textiles
+		Product: Shoes (Footwear)
+			Input: Leather
+			Input: Textiles
+		Product: Toy Doll (Toys & Video Games)
+			Input: Cotton
+			Input: Dyestuff
+			Input: Textiles
+	Product: Sofa (Furniture)
+		Input: Leather
+		Input: Cotton
+		Input: Timber
+	Product: Sport Shoes (Footwear)
+		Input: Cotton
+		Input: Rubber
+		Input: Polyester
+	Product: Toy Doll (Toys & Video Games)
+		Input: Cotton
+		Input: Dyestuff
+		Input: Textiles
+
+
+Crops: Flax Fiber (Sow: August, Harvest: April)
+	Semi-Product: Linen
+	Input: Flax Fiber
+		Product: Backpack (Sports Equipment)
+			Input: Linen
+			Input: Polyester
+
+
+Crops: Grapes (Sow: July, Harvest: December)
+	Product: Grape Juice (Beverages)
+		Input: Grapes
+		Input: Citric Acid
+		Input: Glass
+	Product: Wine (Beverages)
+		Input: Grapes
+		Input: Glass
+
+
+Crops: Lemons (Sow: August, Harvest: April)
+	Semi-Product: Citric Acid
+	Input: Lemons
+		Product: Detergent (Chemical Products)
+			Input: Chemical Minerals
+			Input: Citric Acid
+			Input: Plastic
+		Product: Grape Juice (Beverages)
+			Input: Grapes
+			Input: Citric Acid
+			Input: Glass
+		Product: Soap (Bath Supplies)
+			Input: Citric Acid
+			Input: Coconut Oil
+			Input: Paper
+		Product: Yogurt (Dessert)
+			Input: Milk
+			Input: Strawberry
+			Input: Citric Acid
+
+
+Crops: Rubber (Sow: May, Harvest: February)
+	Product: In-line Skates (Sports Equipment)
+		Input: Leather
+		Input: Rubber
+		Input: Steel
+	Product: Sandals (Footwear)
+		Input: Rubber
+	Product: Sport Shoes (Footwear)
+		Input: Cotton
+		Input: Rubber
+		Input: Polyester
+
+
+Crops: Strawberry (Sow: February, Harvest: August)
+	Product: Fruit Snacks (Snacks)
+		Input: Strawberry
+	Product: Ice Cream (Dessert)
+		Input: Milk
+		Input: Strawberry
+		Input: Sugar
+	Product: Yogurt (Dessert)
+		Input: Milk
+		Input: Strawberry
+		Input: Citric Acid
+
+
+Crops: Sugar (Sow: March, Harvest: September)
+	Product: Chewing Gum (Snacks)
+		Input: Corn Syrup
+		Input: Sugar
+	Product: Cola (Beverages)
+		Input: Aluminum
+		Input: Sugar
+	Product: Cookies (Snacks)
+		Input: Flour
+		Input: Sugar
+	Product: Corn Flakes (Food)
+		Input: Corn
+		Input: Sugar
+	Product: Ice Cream (Dessert)
+		Input: Milk
+		Input: Strawberry
+		Input: Sugar
+
+
+Crops: Tobacco (Sow: November, Harvest: March)
+	Product: Cigarettes (Tobacco Products)
+		Input: Tobacco
+		Input: Paper
+	Product: Cigars (Tobacco Products)
+		Input: Tobacco
+		Input: Paper
+
+
+Crops: Wheat (Sow: August, Harvest: April)
+	Semi-Product: Flour
+	Input: Wheat
+		Product: Bread (Food)
+			Input: Flour
+		Product: Cakes (Dessert)
+			Input: Eggs
+			Input: Cocoa
+			Input: Flour
+		Product: Cookies (Snacks)
+			Input: Flour
+			Input: Sugar
+	Semi-Product: Wheat Germ Oil
+	Input: Wheat
+		Product: Hair Color (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Lipstick (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil

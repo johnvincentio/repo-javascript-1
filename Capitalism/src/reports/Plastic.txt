@@ -1,0 +1,96 @@
+
+
+Semi Product: Plastic
+	Semi-Product: Car Body
+	Input: Glass
+	Input: Plastic
+	Input: Steel
+		Product: Car (Automotive)
+			Input: Car Body
+			Input: Engine
+			Input: Wheel & Tire
+	Product: Bath Lotion (Bath Supplies)
+		Input: Chemical Minerals
+		Input: Coconut Oil
+		Input: Plastic
+	Product: Camera (Photography)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Camera Film (Photography)
+		Input: Chemical Minerals
+		Input: Silver
+		Input: Plastic
+	Product: Cold Tablets (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Cough Syrup (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Detergent (Chemical Products)
+		Input: Chemical Minerals
+		Input: Citric Acid
+		Input: Plastic
+	Product: Eye Shadow (Cosmetics)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Hair Color (Cosmetics)
+		Input: Dyestuff
+		Input: Plastic
+		Input: Wheat Germ Oil
+	Product: Hand Held Game Device (Toys & Video Games)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Headache Pills (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Lipstick (Cosmetics)
+		Input: Dyestuff
+		Input: Plastic
+		Input: Wheat Germ Oil
+	Product: Microwave (Electrical Products)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Mobile Phone (Electronics)
+		Input: Electronic Components
+		Input: Plastic
+	Product: Notebook Computer (Computer Industry)
+		Input: Cpu
+		Input: Electronic Components
+		Input: Plastic
+	Product: Palm Computer (Computer Industry)
+		Input: Cpu
+		Input: Electronic Components
+		Input: Plastic
+	Product: Printer (Computer Industry)
+		Input: Electronic Components
+		Input: Plastic
+	Product: Shampoo (Bath Supplies)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Sports Watch (Watches)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Television (Electrical Products)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Toilet Cleaner (Chemical Products)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Toothpaste (Chemical Products)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Toy Racing Car (Toys & Video Games)
+		Input: Electronic Components
+		Input: Plastic
+	Product: Video Camera (Electronics)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Video Game Console (Toys & Video Games)
+		Input: Electronic Components
+		Input: Plastic

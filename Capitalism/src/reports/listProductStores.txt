@@ -1,0 +1,312 @@
+	Product: Air Conditioner
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+	Product: Backpack
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Sports Store
+	Product: Bath Lotion
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+		Stores: Cosmetic Store
+		Stores: Drug Store
+	Product: Bed
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Furniture Store
+	Product: Bottled Milk
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Bread
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Cakes
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Camera
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+		Stores: Hardware Store
+	Product: Camera Film
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+		Stores: Hardware Store
+	Product: Canned Corn
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Canned Soup
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Car
+		Stores: Automobile Outlet
+	Product: Chair
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Furniture Store
+	Product: Chewing Gum
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Chocolate Bar
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Cigarettes
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Cigars
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Cola
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Cold Tablets
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+		Stores: Drug Store
+	Product: Cookies
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Corn Flakes
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Cough Syrup
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+		Stores: Drug Store
+	Product: Dvd Player
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+	Product: Desktop Computer
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+		Stores: Computer Store
+	Product: Detergent
+		Stores: Discount Megastore
+		Stores: Supermarket
+	Product: Eggs
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Elegant Watch
+		Stores: Department Store
+		Stores: Jewelry + Watch Store
+	Product: Eye Shadow
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Cosmetic Store
+		Stores: Drug Store
+	Product: Frozen Beef
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Frozen Chicken
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Frozen Lamb
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Frozen Pork
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Fruit Snacks
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Gold Ring
+		Stores: Department Store
+		Stores: Jewelry + Watch Store
+	Product: Golf Clubs
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Sports Store
+	Product: Grape Juice
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Hair Color
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Cosmetic Store
+		Stores: Drug Store
+	Product: Handheld Game Device
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Toy Store
+	Product: Headache Pills
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+		Stores: Drug Store
+	Product: Hi-fi
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+	Product: Ice Cream
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: In-line Skates
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Sports Store
+	Product: Jeans
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Apparel Store
+	Product: Leather Bag
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Leather Store
+	Product: Leather Belt
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Leather Store
+	Product: Leather Briefcase
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Leather Store
+	Product: Leather Jacket
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Apparel Store
+	Product: Leather Wallet
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Leather Store
+	Product: Lipstick
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Cosmetic Store
+		Stores: Drug Store
+	Product: Microwave
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+	Product: Mobile Phone
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+	Product: Motorcycle
+		Stores: Automobile Outlet
+	Product: Notebook Computer
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+		Stores: Computer Store
+	Product: Palm Computer
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+		Stores: Computer Store
+	Product: Perfume
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Cosmetic Store
+		Stores: Drug Store
+	Product: Printer
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+		Stores: Computer Store
+	Product: Sandals
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Footwear Store
+	Product: Shampoo
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+		Stores: Cosmetic Store
+		Stores: Drug Store
+	Product: Shoes
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Footwear Store
+	Product: Silver Necklace
+		Stores: Department Store
+		Stores: Jewelry + Watch Store
+	Product: Soap
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Supermarket
+		Stores: Convenience Store
+		Stores: Cosmetic Store
+		Stores: Drug Store
+	Product: Socks
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Footwear Store
+	Product: Sofa
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Furniture Store
+	Product: Sport Shoes
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Footwear Store
+	Product: Sports Watch
+		Stores: Department Store
+		Stores: Jewelry + Watch Store
+	Product: Sweater
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Apparel Store
+	Product: Television
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+	Product: Toilet Cleaner
+		Stores: Discount Megastore
+		Stores: Supermarket
+	Product: Toothpaste
+		Stores: Discount Megastore
+		Stores: Supermarket
+	Product: Toy Doll
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Toy Store
+	Product: Toy Racing Car
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Toy Store
+	Product: Video Camera
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+	Product: Video Game Console
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Toy Store
+	Product: Video Recorder
+		Stores: Department Store
+		Stores: Discount Megastore
+		Stores: Hardware Store
+	Product: Wine
+		Stores: Department Store
+		Stores: Supermarket
+		Stores: Convenience Store
+	Product: Yogurt
+		Stores: Department Store
+		Stores: Supermarket
+		Stores: Convenience Store

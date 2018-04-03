@@ -1,0 +1,40 @@
+
+APP='../app'
+node $APP listStoresProducts > listStoresProducts.txt
+node $APP listProductStores > listProductStores.txt
+
+node $APP listNaturalResources > listNaturalResources.txt
+
+node $APP listGroups > listGroups.txt
+node $APP listFarms > listFarms.txt
+node $APP listCrops > listCrops.txt
+
+node $APP search 'Computer Industry' > 'Computer Industry'.txt
+
+node $APP search 'silica' > 'silica'.txt
+node $APP search 'silicon' > 'silicon'.txt
+
+node $APP search 'Car' > 'Car'.txt
+
+node $APP search 'CPU' > 'CPU'.txt
+node $APP search 'glass' > 'glass'.txt
+node $APP search 'television' > 'television'.txt
+node $APP search 'milk' > 'milk'.txt
+node $APP search 'Chicken Farm' > 'Chicken Farm'.txt
+node $APP search 'grapes' > 'grapes'.txt
+node $APP search 'coconut' > 'coconut'.txt
+node $APP search 'eggs' > 'eggs'.txt
+node $APP search 'Frozen Chicken' > 'Frozen Chicken'.txt
+node $APP search 'Plastic' > 'Plastic'.txt
+node $APP search 'chemical minerals' > 'chemical minerals'.txt
+node $APP search 'Flax Fiber' > 'Flax Fiber'.txt
+node $APP search 'Cocoa' > 'Cocoa'.txt
+node $APP search 'Coal' > 'Coal'.txt
+node $APP search 'Timber' > 'Timber'.txt
+node $APP search 'Gold' > 'Gold'.txt
+node $APP search 'Oil' > 'Oil'.txt
+node $APP search 'Silver' > 'Silver'.txt
+node $APP search 'Cakes' > 'Cakes'.txt
+
+# node $APP search '' > ''.txt
+

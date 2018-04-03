@@ -1,0 +1,702 @@
+
+
+Natural Resources: Aluminum
+	Product: Cola (Beverages)
+		Input: Aluminum
+		Input: Sugar
+	Product: Dvd Player (Electronics)
+		Input: Aluminum
+		Input: Electronic Components
+	Product: Hi Fi (Electrical Products)
+		Input: Aluminum
+		Input: Electronic Components
+		Input: Steel
+
+
+Natural Resources: Chemical Minerals
+	Semi-Product: Electronic Components
+	Input: Chemical Minerals
+	Input: Silicon
+	Input: Steel
+		Product: Air Conditioner (Electrical Products)
+			Input: Electronic Components
+			Input: Steel
+		Product: Camera (Photography)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Desktop Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Steel
+		Product: Dvd Player (Electronics)
+			Input: Aluminum
+			Input: Electronic Components
+		Product: Hand Held Game Device (Toys & Video Games)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Hi Fi (Electrical Products)
+			Input: Aluminum
+			Input: Electronic Components
+			Input: Steel
+		Product: Microwave (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Mobile Phone (Electronics)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Notebook Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Plastic
+		Product: Palm Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Plastic
+		Product: Printer (Computer Industry)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Sports Watch (Watches)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Television (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Toy Racing Car (Toys & Video Games)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Video Camera (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Video Game Console (Toys & Video Games)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Video Recorder (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Steel
+	Semi-Product: Polyester
+	Input: Oil
+	Input: Chemical Minerals
+		Product: Backpack (Sports Equipment)
+			Input: Linen
+			Input: Polyester
+		Product: Sport Shoes (Footwear)
+			Input: Cotton
+			Input: Rubber
+			Input: Polyester
+	Product: Bath Lotion (Bath Supplies)
+		Input: Chemical Minerals
+		Input: Coconut Oil
+		Input: Plastic
+	Product: Camera Film (Photography)
+		Input: Chemical Minerals
+		Input: Silver
+		Input: Plastic
+	Product: Cold Tablets (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Cough Syrup (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Detergent (Chemical Products)
+		Input: Chemical Minerals
+		Input: Citric Acid
+		Input: Plastic
+	Product: Eye Shadow (Cosmetics)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Headache Pills (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Perfume (Cosmetics)
+		Input: Chemical Minerals
+		Input: Glass
+	Product: Shampoo (Bath Supplies)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Toilet Cleaner (Chemical Products)
+		Input: Chemical Minerals
+		Input: Plastic
+	Product: Toothpaste (Chemical Products)
+		Input: Chemical Minerals
+		Input: Plastic
+
+
+Natural Resources: Coal
+	Semi-Product: Steel
+	Input: Coal
+	Input: Iron Ore
+		Product: Air Conditioner (Electrical Products)
+			Input: Electronic Components
+			Input: Steel
+		Product: Desktop Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Steel
+		Product: Elegant Watch (Watches)
+			Input: Glass
+			Input: Steel
+		Product: Golf Clubs (Sports Equipment)
+			Input: Timber
+			Input: Steel
+		Product: Hi Fi (Electrical Products)
+			Input: Aluminum
+			Input: Electronic Components
+			Input: Steel
+		Product: In-line Skates (Sports Equipment)
+			Input: Leather
+			Input: Rubber
+			Input: Steel
+		Product: Leather Belt (Leather Goods)
+			Input: Leather
+			Input: Steel
+		Product: Motorcycle (Automotive)
+			Input: Engine
+			Input: Steel
+			Input: Wheel & Tire
+		Product: Video Recorder (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Steel
+		Semi-Product: Car Body
+		Input: Glass
+		Input: Plastic
+		Input: Steel
+				Product: Car (Automotive)
+						Input: Car Body
+						Input: Engine
+						Input: Wheel & Tire
+		Semi-Product: Electronic Components
+		Input: Chemical Minerals
+		Input: Silicon
+		Input: Steel
+				Product: Air Conditioner (Electrical Products)
+						Input: Electronic Components
+						Input: Steel
+				Product: Camera (Photography)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Desktop Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Steel
+				Product: Dvd Player (Electronics)
+						Input: Aluminum
+						Input: Electronic Components
+				Product: Hand Held Game Device (Toys & Video Games)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Hi Fi (Electrical Products)
+						Input: Aluminum
+						Input: Electronic Components
+						Input: Steel
+				Product: Microwave (Electrical Products)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Mobile Phone (Electronics)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Notebook Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Palm Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Printer (Computer Industry)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Sports Watch (Watches)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Television (Electrical Products)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Toy Racing Car (Toys & Video Games)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Video Camera (Electronics)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Video Game Console (Toys & Video Games)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Video Recorder (Electronics)
+						Input: Electronic Components
+						Input: Glass
+						Input: Steel
+		Semi-Product: Engine
+		Input: Steel
+				Product: Car (Automotive)
+						Input: Car Body
+						Input: Engine
+						Input: Wheel & Tire
+				Product: Motorcycle (Automotive)
+						Input: Engine
+						Input: Steel
+						Input: Wheel & Tire
+
+
+Natural Resources: Gold
+	Product: Gold Ring (Jewelry)
+		Input: Gold
+
+
+Natural Resources: Iron Ore
+	Semi-Product: Steel
+	Input: Coal
+	Input: Iron Ore
+		Product: Air Conditioner (Electrical Products)
+			Input: Electronic Components
+			Input: Steel
+		Product: Desktop Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Steel
+		Product: Elegant Watch (Watches)
+			Input: Glass
+			Input: Steel
+		Product: Golf Clubs (Sports Equipment)
+			Input: Timber
+			Input: Steel
+		Product: Hi Fi (Electrical Products)
+			Input: Aluminum
+			Input: Electronic Components
+			Input: Steel
+		Product: In-line Skates (Sports Equipment)
+			Input: Leather
+			Input: Rubber
+			Input: Steel
+		Product: Leather Belt (Leather Goods)
+			Input: Leather
+			Input: Steel
+		Product: Motorcycle (Automotive)
+			Input: Engine
+			Input: Steel
+			Input: Wheel & Tire
+		Product: Video Recorder (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Steel
+		Semi-Product: Car Body
+		Input: Glass
+		Input: Plastic
+		Input: Steel
+				Product: Car (Automotive)
+						Input: Car Body
+						Input: Engine
+						Input: Wheel & Tire
+		Semi-Product: Electronic Components
+		Input: Chemical Minerals
+		Input: Silicon
+		Input: Steel
+				Product: Air Conditioner (Electrical Products)
+						Input: Electronic Components
+						Input: Steel
+				Product: Camera (Photography)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Desktop Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Steel
+				Product: Dvd Player (Electronics)
+						Input: Aluminum
+						Input: Electronic Components
+				Product: Hand Held Game Device (Toys & Video Games)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Hi Fi (Electrical Products)
+						Input: Aluminum
+						Input: Electronic Components
+						Input: Steel
+				Product: Microwave (Electrical Products)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Mobile Phone (Electronics)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Notebook Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Palm Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Printer (Computer Industry)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Sports Watch (Watches)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Television (Electrical Products)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Toy Racing Car (Toys & Video Games)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Video Camera (Electronics)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Video Game Console (Toys & Video Games)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Video Recorder (Electronics)
+						Input: Electronic Components
+						Input: Glass
+						Input: Steel
+		Semi-Product: Engine
+		Input: Steel
+				Product: Car (Automotive)
+						Input: Car Body
+						Input: Engine
+						Input: Wheel & Tire
+				Product: Motorcycle (Automotive)
+						Input: Engine
+						Input: Steel
+						Input: Wheel & Tire
+
+
+Natural Resources: Oil
+	Semi-Product: Dyestuff
+	Input: Oil
+	Input: Timber
+		Product: Hair Color (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Jeans (Apparel)
+			Input: Dyestuff
+			Input: Textiles
+		Product: Lipstick (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Sweater (Apparel)
+			Input: Wool
+			Input: Dyestuff
+		Product: Toy Doll (Toys & Video Games)
+			Input: Cotton
+			Input: Dyestuff
+			Input: Textiles
+	Semi-Product: Plastic
+	Input: Oil
+		Product: Bath Lotion (Bath Supplies)
+			Input: Chemical Minerals
+			Input: Coconut Oil
+			Input: Plastic
+		Product: Camera (Photography)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Camera Film (Photography)
+			Input: Chemical Minerals
+			Input: Silver
+			Input: Plastic
+		Product: Cold Tablets (Drugs)
+			Input: Chemical Minerals
+			Input: Plastic
+		Product: Cough Syrup (Drugs)
+			Input: Chemical Minerals
+			Input: Plastic
+		Product: Detergent (Chemical Products)
+			Input: Chemical Minerals
+			Input: Citric Acid
+			Input: Plastic
+		Product: Eye Shadow (Cosmetics)
+			Input: Chemical Minerals
+			Input: Plastic
+		Product: Hair Color (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Hand Held Game Device (Toys & Video Games)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Headache Pills (Drugs)
+			Input: Chemical Minerals
+			Input: Plastic
+		Product: Lipstick (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Microwave (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Mobile Phone (Electronics)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Notebook Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Plastic
+		Product: Palm Computer (Computer Industry)
+			Input: Cpu
+			Input: Electronic Components
+			Input: Plastic
+		Product: Printer (Computer Industry)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Shampoo (Bath Supplies)
+			Input: Chemical Minerals
+			Input: Plastic
+		Product: Sports Watch (Watches)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Television (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Toilet Cleaner (Chemical Products)
+			Input: Chemical Minerals
+			Input: Plastic
+		Product: Toothpaste (Chemical Products)
+			Input: Chemical Minerals
+			Input: Plastic
+		Product: Toy Racing Car (Toys & Video Games)
+			Input: Electronic Components
+			Input: Plastic
+		Product: Video Camera (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Video Game Console (Toys & Video Games)
+			Input: Electronic Components
+			Input: Plastic
+		Semi-Product: Car Body
+		Input: Glass
+		Input: Plastic
+		Input: Steel
+				Product: Car (Automotive)
+						Input: Car Body
+						Input: Engine
+						Input: Wheel & Tire
+	Semi-Product: Polyester
+	Input: Oil
+	Input: Chemical Minerals
+		Product: Backpack (Sports Equipment)
+			Input: Linen
+			Input: Polyester
+		Product: Sport Shoes (Footwear)
+			Input: Cotton
+			Input: Rubber
+			Input: Polyester
+
+
+Natural Resources: Silica
+	Semi-Product: Glass
+	Input: Silica
+		Product: Bottled Milk (Beverages)
+			Input: Milk
+			Input: Glass
+		Product: Camera (Photography)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Elegant Watch (Watches)
+			Input: Glass
+			Input: Steel
+		Product: Grape Juice (Beverages)
+			Input: Grapes
+			Input: Citric Acid
+			Input: Glass
+		Product: Hand Held Game Device (Toys & Video Games)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Microwave (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Perfume (Cosmetics)
+			Input: Chemical Minerals
+			Input: Glass
+		Product: Sports Watch (Watches)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Television (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Video Camera (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Video Recorder (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Steel
+		Product: Wine (Beverages)
+			Input: Grapes
+			Input: Glass
+		Semi-Product: Car Body
+		Input: Glass
+		Input: Plastic
+		Input: Steel
+				Product: Car (Automotive)
+						Input: Car Body
+						Input: Engine
+						Input: Wheel & Tire
+	Semi-Product: Silicon
+	Input: Silica
+		Semi-Product: CPU
+		Input: Silicon
+				Product: Desktop Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Steel
+				Product: Notebook Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Palm Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+		Semi-Product: Electronic Components
+		Input: Chemical Minerals
+		Input: Silicon
+		Input: Steel
+				Product: Air Conditioner (Electrical Products)
+						Input: Electronic Components
+						Input: Steel
+				Product: Camera (Photography)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Desktop Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Steel
+				Product: Dvd Player (Electronics)
+						Input: Aluminum
+						Input: Electronic Components
+				Product: Hand Held Game Device (Toys & Video Games)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Hi Fi (Electrical Products)
+						Input: Aluminum
+						Input: Electronic Components
+						Input: Steel
+				Product: Microwave (Electrical Products)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Mobile Phone (Electronics)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Notebook Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Palm Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Printer (Computer Industry)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Sports Watch (Watches)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Television (Electrical Products)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Toy Racing Car (Toys & Video Games)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Video Camera (Electronics)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Video Game Console (Toys & Video Games)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Video Recorder (Electronics)
+						Input: Electronic Components
+						Input: Glass
+						Input: Steel
+
+
+Natural Resources: Silver
+	Product: Camera Film (Photography)
+		Input: Chemical Minerals
+		Input: Silver
+		Input: Plastic
+	Product: Silver Necklace (Jewelry)
+		Input: Silver
+
+
+Natural Resources: Timber
+	Semi-Product: Dyestuff
+	Input: Oil
+	Input: Timber
+		Product: Hair Color (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Jeans (Apparel)
+			Input: Dyestuff
+			Input: Textiles
+		Product: Lipstick (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Sweater (Apparel)
+			Input: Wool
+			Input: Dyestuff
+		Product: Toy Doll (Toys & Video Games)
+			Input: Cotton
+			Input: Dyestuff
+			Input: Textiles
+	Semi-Product: Paper
+	Input: Timber
+		Product: Cigarettes (Tobacco Products)
+			Input: Tobacco
+			Input: Paper
+		Product: Cigars (Tobacco Products)
+			Input: Tobacco
+			Input: Paper
+		Product: Soap (Bath Supplies)
+			Input: Citric Acid
+			Input: Coconut Oil
+			Input: Paper
+	Product: Bed (Furniture)
+		Input: Timber
+	Product: Chair (Furniture)
+		Input: Timber
+		Input: Textiles
+	Product: Golf Clubs (Sports Equipment)
+		Input: Timber
+		Input: Steel
+	Product: Sofa (Furniture)
+		Input: Leather
+		Input: Cotton
+		Input: Timber

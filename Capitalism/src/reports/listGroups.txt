@@ -1,0 +1,286 @@
+
+Group:  Apparel
+	Product: Jeans
+		Input:  Dyestuff
+		Input:  Textiles
+	Product: Leather Jacket
+		Input:  Leather
+		Input:  Textiles
+	Product: Sweater
+		Input:  Wool
+		Input:  Dyestuff
+
+Group:  Automotive
+	Product: Car
+		Input:  Car Body
+		Input:  Engine
+		Input:  Wheel & Tire
+	Product: Motorcycle
+		Input:  Engine
+		Input:  Steel
+		Input:  Wheel & Tire
+
+Group:  Bath Supplies
+	Product: Bath Lotion
+		Input:  Chemical Minerals
+		Input:  Coconut Oil
+		Input:  Plastic
+	Product: Shampoo
+		Input:  Chemical Minerals
+		Input:  Plastic
+	Product: Soap
+		Input:  Citric Acid
+		Input:  Coconut Oil
+		Input:  Paper
+
+Group:  Beverages
+	Product: Bottled Milk
+		Input:  Milk
+		Input:  Glass
+	Product: Cola
+		Input:  Aluminum
+		Input:  Sugar
+	Product: Grape Juice
+		Input:  Grapes
+		Input:  Citric Acid
+		Input:  Glass
+	Product: Wine
+		Input:  Grapes
+		Input:  Glass
+
+Group:  Chemical Products
+	Product: Detergent
+		Input:  Chemical Minerals
+		Input:  Citric Acid
+		Input:  Plastic
+	Product: Toilet Cleaner
+		Input:  Chemical Minerals
+		Input:  Plastic
+	Product: Toothpaste
+		Input:  Chemical Minerals
+		Input:  Plastic
+
+Group:  Computer Industry
+	Product: Desktop Computer
+		Input:  Cpu
+		Input:  Electronic Components
+		Input:  Steel
+	Product: Notebook Computer
+		Input:  Cpu
+		Input:  Electronic Components
+		Input:  Plastic
+	Product: Palm Computer
+		Input:  Cpu
+		Input:  Electronic Components
+		Input:  Plastic
+	Product: Printer
+		Input:  Electronic Components
+		Input:  Plastic
+
+Group:  Cosmetics
+	Product: Eye Shadow
+		Input:  Chemical Minerals
+		Input:  Plastic
+	Product: Hair Color
+		Input:  Dyestuff
+		Input:  Plastic
+		Input:  Wheat Germ Oil
+	Product: Lipstick
+		Input:  Dyestuff
+		Input:  Plastic
+		Input:  Wheat Germ Oil
+	Product: Perfume
+		Input:  Chemical Minerals
+		Input:  Glass
+
+Group:  Dessert
+	Product: Cakes
+		Input:  Eggs
+		Input:  Cocoa
+		Input:  Flour
+	Product: Ice Cream
+		Input:  Milk
+		Input:  Strawberry
+		Input:  Sugar
+	Product: Yogurt
+		Input:  Milk
+		Input:  Strawberry
+		Input:  Citric Acid
+
+Group:  Drugs
+	Product: Cold Tablets
+		Input:  Chemical Minerals
+		Input:  Plastic
+	Product: Cough Syrup
+		Input:  Chemical Minerals
+		Input:  Plastic
+	Product: Headache Pills
+		Input:  Chemical Minerals
+		Input:  Plastic
+
+Group:  Electrical Products
+	Product: Air Conditioner
+		Input:  Electronic Components
+		Input:  Steel
+	Product: Hi Fi
+		Input:  Aluminum
+		Input:  Electronic Components
+		Input:  Steel
+	Product: Microwave
+		Input:  Electronic Components
+		Input:  Glass
+		Input:  Plastic
+	Product: Television
+		Input:  Electronic Components
+		Input:  Glass
+		Input:  Plastic
+
+Group:  Electronics
+	Product: Dvd Player
+		Input:  Aluminum
+		Input:  Electronic Components
+	Product: Mobile Phone
+		Input:  Electronic Components
+		Input:  Plastic
+	Product: Video Camera
+		Input:  Electronic Components
+		Input:  Glass
+		Input:  Plastic
+	Product: Video Recorder
+		Input:  Electronic Components
+		Input:  Glass
+		Input:  Steel
+
+Group:  Food
+	Product: Bread
+		Input:  Flour
+	Product: Canned Corn
+		Input:  Corn
+	Product: Canned Soup
+		Input:  Frozen Chicken
+	Product: Corn Flakes
+		Input:  Corn
+		Input:  Sugar
+
+Group:  Footwear
+	Product: Sandals
+		Input:  Rubber
+	Product: Shoes
+		Input:  Leather
+		Input:  Textiles
+	Product: Socks
+		Input:  Wool
+	Product: Sport Shoes
+		Input:  Cotton
+		Input:  Rubber
+		Input:  Polyester
+
+Group:  Furniture
+	Product: Bed
+		Input:  Timber
+	Product: Chair
+		Input:  Timber
+		Input:  Textiles
+	Product: Sofa
+		Input:  Leather
+		Input:  Cotton
+		Input:  Timber
+
+Group:  Jewelry
+	Product: Gold Ring
+		Input:  Gold
+	Product: Silver Necklace
+		Input:  Silver
+
+Group:  Leather Goods
+	Product: Leather Bag
+		Input:  Leather
+		Input:  Textiles
+	Product: Leather Belt
+		Input:  Leather
+		Input:  Steel
+	Product: Leather Briefcase
+		Input:  Leather
+		Input:  Textiles
+	Product: Leather Wallet
+		Input:  Leather
+
+Group:  Livestock Products
+	Product: Eggs
+		Input:  Chicken Farm
+	Product: Frozen Chicken
+		Input:  Chicken Farm
+	Product: Frozen Beef
+		Input:  Cattle Farm
+	Product: Frozen Lamb
+		Input:  Sheep Farm
+	Product: Frozen Pork
+		Input:  Pig Farm
+
+Group:  Photography
+	Product: Camera
+		Input:  Electronic Components
+		Input:  Glass
+		Input:  Plastic
+	Product: Camera Film
+		Input:  Chemical Minerals
+		Input:  Silver
+		Input:  Plastic
+
+Group:  Snacks
+	Product: Chewing Gum
+		Input:  Corn Syrup
+		Input:  Sugar
+	Product: Chocolate Bar
+		Input:  Milk
+		Input:  Cocoa
+	Product: Cookies
+		Input:  Flour
+		Input:  Sugar
+	Product: Fruit Snacks
+		Input:  Strawberry
+
+Group:  Sports Equipment
+	Product: Backpack
+		Input:  Linen
+		Input:  Polyester
+	Product: Golf Clubs
+		Input:  Timber
+		Input:  Steel
+	Product: In-line Skates
+		Input:  Leather
+		Input:  Rubber
+		Input:  Steel
+
+Group:  Tobacco Products
+	Product: Cigarettes
+		Input:  Tobacco
+		Input:  Paper
+	Product: Cigars
+		Input:  Tobacco
+		Input:  Paper
+
+Group:  Toys & Video Games
+	Product: Hand Held Game Device
+		Input:  Electronic Components
+		Input:  Glass
+		Input:  Plastic
+	Product: Toy Doll
+		Input:  Cotton
+		Input:  Dyestuff
+		Input:  Textiles
+	Product: Toy Racing Car
+		Input:  Electronic Components
+		Input:  Plastic
+	Product: Video Game Console
+		Input:  Electronic Components
+		Input:  Plastic
+
+Group:  Watches
+	Product: Elegant Watch
+		Input:  Glass
+		Input:  Steel
+	Product: Sports Watch
+		Input:  Electronic Components
+		Input:  Glass
+		Input:  Plastic

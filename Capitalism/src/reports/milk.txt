@@ -1,0 +1,17 @@
+
+
+Semi Product: Milk
+	Product: Bottled Milk (Beverages)
+		Input: Milk
+		Input: Glass
+	Product: Chocolate Bar (Snacks)
+		Input: Milk
+		Input: Cocoa
+	Product: Ice Cream (Dessert)
+		Input: Milk
+		Input: Strawberry
+		Input: Sugar
+	Product: Yogurt (Dessert)
+		Input: Milk
+		Input: Strawberry
+		Input: Citric Acid

@@ -1,0 +1,48 @@
+
+
+Natural Resource: Timber
+	Semi-Product: Dyestuff
+	Input: Oil
+	Input: Timber
+		Product: Hair Color (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Jeans (Apparel)
+			Input: Dyestuff
+			Input: Textiles
+		Product: Lipstick (Cosmetics)
+			Input: Dyestuff
+			Input: Plastic
+			Input: Wheat Germ Oil
+		Product: Sweater (Apparel)
+			Input: Wool
+			Input: Dyestuff
+		Product: Toy Doll (Toys & Video Games)
+			Input: Cotton
+			Input: Dyestuff
+			Input: Textiles
+	Semi-Product: Paper
+	Input: Timber
+		Product: Cigarettes (Tobacco Products)
+			Input: Tobacco
+			Input: Paper
+		Product: Cigars (Tobacco Products)
+			Input: Tobacco
+			Input: Paper
+		Product: Soap (Bath Supplies)
+			Input: Citric Acid
+			Input: Coconut Oil
+			Input: Paper
+	Product: Bed (Furniture)
+		Input: Timber
+	Product: Chair (Furniture)
+		Input: Timber
+		Input: Textiles
+	Product: Golf Clubs (Sports Equipment)
+		Input: Timber
+		Input: Steel
+	Product: Sofa (Furniture)
+		Input: Leather
+		Input: Cotton
+		Input: Timber

@@ -1,0 +1,10 @@
+
+
+Crop: Grapes
+	Product: Grape Juice (Beverages)
+		Input: Grapes
+		Input: Citric Acid
+		Input: Glass
+	Product: Wine (Beverages)
+		Input: Grapes
+		Input: Glass

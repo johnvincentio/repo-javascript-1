@@ -1,0 +1,6 @@
+
+ Product   Car
+	Product: Car (Automotive)
+	Input:  Car Body
+	Input:  Engine
+	Input:  Wheel & Tire

@@ -1,0 +1,13 @@
+
+
+Farm: Chicken Farm
+	Semi-Product: Eggs
+	Input: Chicken Farm
+		Product: Cakes (Dessert)
+			Input: Eggs
+			Input: Cocoa
+			Input: Flour
+	Product: Eggs (Livestock Products)
+		Input: Chicken Farm
+	Product: Frozen Chicken (Livestock Products)
+		Input: Chicken Farm

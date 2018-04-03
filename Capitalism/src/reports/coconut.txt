@@ -1,0 +1,13 @@
+
+
+Crop: Coconut
+	Semi-Product: Coconut Oil
+	Input: Coconut
+		Product: Bath Lotion (Bath Supplies)
+			Input: Chemical Minerals
+			Input: Coconut Oil
+			Input: Plastic
+		Product: Soap (Bath Supplies)
+			Input: Citric Acid
+			Input: Coconut Oil
+			Input: Paper

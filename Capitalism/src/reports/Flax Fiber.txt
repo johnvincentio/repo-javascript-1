@@ -1,0 +1,8 @@
+
+
+Crop: Flax Fiber
+	Semi-Product: Linen
+	Input: Flax Fiber
+		Product: Backpack (Sports Equipment)
+			Input: Linen
+			Input: Polyester

@@ -1,0 +1,132 @@
+
+
+Farms: Cattle Farm
+	Semi-Product: Leather
+	Input: Cattle Farm
+		Product: In-line Skates (Sports Equipment)
+			Input: Leather
+			Input: Rubber
+			Input: Steel
+		Product: Leather Bag (Leather Goods)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Belt (Leather Goods)
+			Input: Leather
+			Input: Steel
+		Product: Leather Briefcase (Leather Goods)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Jacket (Apparel)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Wallet (Leather Goods)
+			Input: Leather
+		Product: Shoes (Footwear)
+			Input: Leather
+			Input: Textiles
+		Product: Sofa (Furniture)
+			Input: Leather
+			Input: Cotton
+			Input: Timber
+	Semi-Product: Milk
+	Input: Cattle Farm
+		Product: Bottled Milk (Beverages)
+			Input: Milk
+			Input: Glass
+		Product: Chocolate Bar (Snacks)
+			Input: Milk
+			Input: Cocoa
+		Product: Ice Cream (Dessert)
+			Input: Milk
+			Input: Strawberry
+			Input: Sugar
+		Product: Yogurt (Dessert)
+			Input: Milk
+			Input: Strawberry
+			Input: Citric Acid
+	Product: Frozen Beef (Livestock Products)
+		Input: Cattle Farm
+
+
+Farms: Chicken Farm
+	Semi-Product: Eggs
+	Input: Chicken Farm
+		Product: Cakes (Dessert)
+			Input: Eggs
+			Input: Cocoa
+			Input: Flour
+	Product: Eggs (Livestock Products)
+		Input: Chicken Farm
+	Product: Frozen Chicken (Livestock Products)
+		Input: Chicken Farm
+
+
+Farms: Pig Farm
+	Semi-Product: Leather
+	Input: Pig Farm
+		Product: In-line Skates (Sports Equipment)
+			Input: Leather
+			Input: Rubber
+			Input: Steel
+		Product: Leather Bag (Leather Goods)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Belt (Leather Goods)
+			Input: Leather
+			Input: Steel
+		Product: Leather Briefcase (Leather Goods)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Jacket (Apparel)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Wallet (Leather Goods)
+			Input: Leather
+		Product: Shoes (Footwear)
+			Input: Leather
+			Input: Textiles
+		Product: Sofa (Furniture)
+			Input: Leather
+			Input: Cotton
+			Input: Timber
+	Product: Frozen Pork (Livestock Products)
+		Input: Pig Farm
+
+
+Farms: Sheep Farm
+	Semi-Product: Leather
+	Input: Sheep Farm
+		Product: In-line Skates (Sports Equipment)
+			Input: Leather
+			Input: Rubber
+			Input: Steel
+		Product: Leather Bag (Leather Goods)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Belt (Leather Goods)
+			Input: Leather
+			Input: Steel
+		Product: Leather Briefcase (Leather Goods)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Jacket (Apparel)
+			Input: Leather
+			Input: Textiles
+		Product: Leather Wallet (Leather Goods)
+			Input: Leather
+		Product: Shoes (Footwear)
+			Input: Leather
+			Input: Textiles
+		Product: Sofa (Furniture)
+			Input: Leather
+			Input: Cotton
+			Input: Timber
+	Semi-Product: Wool
+	Input: Sheep Farm
+		Product: Socks (Footwear)
+			Input: Wool
+		Product: Sweater (Apparel)
+			Input: Wool
+			Input: Dyestuff
+	Product: Frozen Lamb (Livestock Products)
+		Input: Sheep Farm

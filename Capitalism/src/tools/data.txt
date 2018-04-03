@@ -1,0 +1,74 @@
+Bath Lotion:Department Store,Discount Megastore,Supermarket,Convenience Store,Cosmetic Store,Drug Store
+Bed:Department Store,Discount Megastore,Furniture Store
+Bottled Milk:Discount Megastore,Supermarket,Convenience Store
+Bread:Discount Megastore,Supermarket,Convenience Store
+Cakes:Discount Megastore,Supermarket,Convenience Store
+Camera:Department Store,Discount Megastore,Supermarket,Convenience Store,Hardware Store
+Camera Film:Department Store,Discount Megastore,Supermarket,Convenience Store,Hardware Store
+Canned Corn:Discount Megastore,Supermarket,Convenience Store
+Canned Soup:Discount Megastore,Supermarket,Convenience Store
+Car:Automobile Outlet
+Chair:Department Store,Discount Megastore,Furniture Store
+Chewing Gum:Discount Megastore,Supermarket,Convenience Store
+Chocolate Bar:Discount Megastore,Supermarket,Convenience Store
+Cigarettes:Discount Megastore,Supermarket,Convenience Store
+Cigars:Discount Megastore,Supermarket,Convenience Store
+Cola:Discount Megastore,Supermarket,Convenience Store
+Cold Tablets:Discount Megastore,Supermarket,Convenience Store,Drug Store
+Cookies:Discount Megastore,Supermarket,Convenience Store
+Corn Flakes:Discount Megastore,Supermarket,Convenience Store
+Cough Syrup:Discount Megastore,Supermarket,Convenience Store,Drug Store
+DVD Player:Department Store,Discount Megastore,Hardware Store
+Desktop Computer:Department Store,Discount Megastore,Hardware Store,Computer Store
+Detergent:Discount Megastore,Supermarket
+Eggs:Supermarket,Convenience Store
+Elegant Watch:Department Store,Jewelry + Watch Store
+Eye Shadow:Department Store,Discount Megastore,Cosmetic Store,Drug Store
+Frozen Beef:Supermarket,Convenience Store
+Frozen Chicken:Supermarket,Convenience Store
+Frozen Lamb:Supermarket,Convenience Store
+Frozen Pork:Supermarket,Convenience Store
+Fruit Snacks:Discount Megastore,Supermarket,Convenience Store
+Gold Ring:Department Store,Jewelry + Watch Store
+Golf Clubs:Department Store,Discount Megastore,Sports Store
+Grape Juice:Discount Megastore,Supermarket,Convenience Store
+Hair Color:Department Store,Discount Megastore,Cosmetic Store,Drug Store
+Handheld Game Device:Department Store,Discount Megastore,Toy Store
+Headache Pills:Discount Megastore,Supermarket,Convenience Store,Drug Store
+Hi-Fi:Department Store,Discount Megastore,Hardware Store
+Ice Cream:Discount Megastore,Supermarket,Convenience Store
+In-line Skates:Department Store,Discount Megastore,Sports Store
+Jeans:Department Store,Discount Megastore,Apparel Store
+Leather Bag:Department Store,Discount Megastore,Leather Store
+Leather Belt:Department Store,Discount Megastore,Leather Store
+Leather Briefcase:Department Store,Discount Megastore,Leather Store
+Leather Jacket:Department Store,Discount Megastore,Apparel Store
+Leather Wallet:Department Store,Discount Megastore,Leather Store
+Lipstick:Department Store,Discount Megastore,Cosmetic Store,Drug Store
+Microwave:Department Store,Discount Megastore,Hardware Store
+Mobile Phone:Department Store,Discount Megastore,Hardware Store
+Motorcycle:Automobile Outlet
+Notebook Computer:Department Store,Discount Megastore,Hardware Store,Computer Store
+Palm Computer:Department Store,Discount Megastore,Hardware Store,Computer Store
+Perfume:Department Store,Discount Megastore,Cosmetic Store,Drug Store
+Printer:Department Store,Discount Megastore,Hardware Store,Computer Store
+Sandals:Department Store,Discount Megastore,Footwear Store
+Shampoo:Department Store,Discount Megastore,Supermarket,Convenience Store,Cosmetic Store,Drug Store
+Shoes:Department Store,Discount Megastore,Footwear Store
+Silver Necklace:Department Store,Jewelry + Watch Store
+Soap:Department Store,Discount Megastore,Supermarket,Convenience Store,Cosmetic Store,Drug Store
+Socks:Department Store,Discount Megastore,Footwear Store
+Sofa:Department Store,Discount Megastore,Furniture Store
+Sport Shoes:Department Store,Discount Megastore,Footwear Store
+Sports Watch:Department Store,Jewelry + Watch Store
+Sweater:Department Store,Discount Megastore,Apparel Store
+Television:Department Store,Discount Megastore,Hardware Store
+Toilet Cleaner:Discount Megastore,Supermarket
+Toothpaste:Discount Megastore,supermarket
+Toy Doll:Department Store,Discount Megastore,Toy Store
+Toy Racing Car:Department Store,Discount Megastore,Toy Store
+Video Camera:Department Store,Discount Megastore,Hardware Store
+Video Game Console:Department Store,Discount Megastore,Toy Store
+Video Recorder:Department Store,Discount Megastore,Hardware Store
+Wine:Department Store,Supermarket,Convenience Store
+Yogurt:Department Store,Supermarket,Convenience Store

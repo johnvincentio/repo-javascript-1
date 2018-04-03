@@ -1,0 +1,139 @@
+
+
+Natural Resource: Silica
+	Semi-Product: Glass
+	Input: Silica
+		Product: Bottled Milk (Beverages)
+			Input: Milk
+			Input: Glass
+		Product: Camera (Photography)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Elegant Watch (Watches)
+			Input: Glass
+			Input: Steel
+		Product: Grape Juice (Beverages)
+			Input: Grapes
+			Input: Citric Acid
+			Input: Glass
+		Product: Hand Held Game Device (Toys & Video Games)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Microwave (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Perfume (Cosmetics)
+			Input: Chemical Minerals
+			Input: Glass
+		Product: Sports Watch (Watches)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Television (Electrical Products)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Video Camera (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Plastic
+		Product: Video Recorder (Electronics)
+			Input: Electronic Components
+			Input: Glass
+			Input: Steel
+		Product: Wine (Beverages)
+			Input: Grapes
+			Input: Glass
+		Semi-Product: Car Body
+		Input: Glass
+		Input: Plastic
+		Input: Steel
+				Product: Car (Automotive)
+						Input: Car Body
+						Input: Engine
+						Input: Wheel & Tire
+	Semi-Product: Silicon
+	Input: Silica
+		Semi-Product: CPU
+		Input: Silicon
+				Product: Desktop Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Steel
+				Product: Notebook Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Palm Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+		Semi-Product: Electronic Components
+		Input: Chemical Minerals
+		Input: Silicon
+		Input: Steel
+				Product: Air Conditioner (Electrical Products)
+						Input: Electronic Components
+						Input: Steel
+				Product: Camera (Photography)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Desktop Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Steel
+				Product: Dvd Player (Electronics)
+						Input: Aluminum
+						Input: Electronic Components
+				Product: Hand Held Game Device (Toys & Video Games)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Hi Fi (Electrical Products)
+						Input: Aluminum
+						Input: Electronic Components
+						Input: Steel
+				Product: Microwave (Electrical Products)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Mobile Phone (Electronics)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Notebook Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Palm Computer (Computer Industry)
+						Input: Cpu
+						Input: Electronic Components
+						Input: Plastic
+				Product: Printer (Computer Industry)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Sports Watch (Watches)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Television (Electrical Products)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Toy Racing Car (Toys & Video Games)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Video Camera (Electronics)
+						Input: Electronic Components
+						Input: Glass
+						Input: Plastic
+				Product: Video Game Console (Toys & Video Games)
+						Input: Electronic Components
+						Input: Plastic
+				Product: Video Recorder (Electronics)
+						Input: Electronic Components
+						Input: Glass
+						Input: Steel

@@ -1,0 +1,4 @@
+
+ Product   Eggs
+	Product: Eggs (Livestock Products)
+	Input:  Chicken Farm

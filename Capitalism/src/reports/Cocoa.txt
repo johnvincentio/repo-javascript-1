@@ -1,0 +1,10 @@
+
+
+Crop: Cocoa
+	Product: Cakes (Dessert)
+		Input: Eggs
+		Input: Cocoa
+		Input: Flour
+	Product: Chocolate Bar (Snacks)
+		Input: Milk
+		Input: Cocoa

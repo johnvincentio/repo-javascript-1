@@ -1,0 +1,6 @@
+
+ Product   Television
+	Product: Television (Electrical Products)
+	Input:  Electronic Components
+	Input:  Glass
+	Input:  Plastic
