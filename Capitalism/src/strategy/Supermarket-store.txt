@@ -18,5 +18,12 @@ Type: Supermarket (Build: $1,000,000, Monthly: $100,000)
 		Input: Grapes
 		Input: Glass
 
+RnD:
+	Detergent
+	Toilet Cleaner
+	Toothpaste
+	Wine
+
+
 
 All other products are more cheaply sold at Convenience stores.

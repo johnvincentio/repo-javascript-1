@@ -1,0 +1,29 @@
+
+Crops: Cotton (Sow: February, Harvest: June)
+
+Farms: Leather
+
+Raw material: Timber
+
+Semi-Product: Textiles
+	Input: Cotton
+
+
+Type: Furniture Store (Build: $1,000,000, Monthly: $100,000)
+
+Product: Bed (Furniture)
+	Input:  Timber
+
+Product: Chair (Furniture)
+	Input:  Timber
+	Input:  Textiles
+
+Product: Sofa (Furniture)
+	Input:  Leather
+	Input:  Cotton
+	Input:  Timber
+
+RnD:
+	Bed
+	Chair
+	Sofa

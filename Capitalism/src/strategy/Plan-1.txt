@@ -28,8 +28,8 @@ Aluminium
 Timber - close to market.
 
 Farms, set these up right away.
-	Crops: Rubber (Sow: May, Harvest: February)
 	Crops: Cotton (Sow: February, Harvest: June)
+	Crops: Rubber (Sow: May, Harvest: February)
 	Crops: Grapes (Sow: July, Harvest: December)
 
 Livestock:
@@ -74,13 +74,14 @@ Build factories, RnD and stores in each city.
 Jewelry-store.txt:
 Build factories, RnD and stores in each city.
 
-Convenience-store.txt:
+Convenience-store-1.txt:
 Build factories, RnD and stores in each city.
 
 
 June, check the cotton harvest.
 Leather-store.txt:
 Build factories, RnD and stores in each city.
+Textiles factory built here.
 
 
 July:
@@ -107,6 +108,7 @@ Hardware-store-2.txt:
 Build factories, RnD and stores in each city.
 
 
-
+Furniture-store.txt:
+Build factories, RnD and stores in each city.
 
 

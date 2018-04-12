@@ -2,12 +2,33 @@
 Type: Department Store (Build: $1,000,000, Monthly: $100,000)
 
 
+	Product: Golf Clubs (Sports Equipment)
+		Input: Timber
+		Input: Steel
+
+	Product: In-line Skates (Sports Equipment)
+		Input: Leather
+		Input: Rubber
+		Input: Steel
 
 
+probably not worth building:
 
+	Product: Backpack (Sports Equipment)
+		Input: Linen
+		Input: Polyester
 
+	Product: Jeans (Apparel)
+		Input: Dyestuff
+		Input: Textiles	
 
+	Product: Leather Jacket (Apparel)
+		Input: Leather
+		Input: Textiles
 
+	Product: Sweater (Apparel)
+		Input: Wool
+		Input: Dyestuff
 
 
 requires a lot, probably not worth it.

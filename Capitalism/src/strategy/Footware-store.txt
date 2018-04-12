@@ -1,0 +1,38 @@
+
+Crops: Cotton (Sow: February, Harvest: June)
+Crops: Rubber (Sow: May, Harvest: February)
+
+Semi-Product: Textiles
+	Input: Cotton
+
+Semi Product: Wool
+	Sheep
+
+Semi-Product: Polyester
+	Input: Oil
+	Input: Chemical Minerals
+
+
+
+Type: Footwear Store (Build: $500,000, Monthly: $50,000)
+	Product: Sandals (Footwear)
+		Input:  Rubber
+
+	Product: Shoes (Footwear)
+		Input:  Leather
+		Input:  Textiles
+
+	Product: Socks (Footwear)
+		Input:  Wool
+	
+	Product: Sport Shoes (Footwear)
+			Input: Cotton
+			Input: Rubber
+			Input: Polyester
+
+RnD:
+	Sandals
+	Shoes
+	Socks
+	Sport Shoes
+

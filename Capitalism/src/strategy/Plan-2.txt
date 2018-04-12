@@ -1,7 +1,13 @@
 
 
+Decide what to make to sell in the Convenience stores...
+Convenience-store-2.txt:
 
-
+Consider:
+Footware-store.txt
 
 Toy-store.txt
+
+
+Department-store.txt; not worth it.
 

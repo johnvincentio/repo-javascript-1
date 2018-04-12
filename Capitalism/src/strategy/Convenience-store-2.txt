@@ -1,31 +1,6 @@
 
 Type: Convenience Store (Build: $500,000, Monthly: $50,000)
 
-	Product: Camera (Photography)
-		Input: Electronic Components
-		Input: Glass
-		Input: Plastic
-
-	Product: Camera Film (Photography)
-		Input: Chemical Minerals
-		Input: Silver
-		Input: Plastic
-
-	Product: Headache Pills (Drugs)
-		Input: Chemical Minerals
-		Input: Plastic
-
-	Product: Shampoo (Bath Supplies)
-		Input: Chemical Minerals
-		Input: Plastic
-
-
-RnD:
-	Camera
-	Camera Film
-	Headache Pills
-	Shampoo
-
 
 
 Requires coconut oil...
@@ -38,6 +13,8 @@ Requires coconut oil...
 		Input: Citric Acid
 		Input: Coconut Oil
 		Input: Paper
+
+choose from:
 
 
 Type: Convenience Store (Build: $500,000, Monthly: $50,000)
