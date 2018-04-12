@@ -3,7 +3,9 @@ Type: Convenience Store (Build: $500,000, Monthly: $50,000)
 
 
 
-Requires coconut oil...
+Crops: Coconut (Sow: August, Harvest: April)
+	Semi-Product: Coconut Oil
+	Input: Coconut
 
 	Product: Bath Lotion (Bath Supplies)
 		Input: Chemical Minerals
@@ -13,6 +15,22 @@ Requires coconut oil...
 		Input: Citric Acid
 		Input: Coconut Oil
 		Input: Paper
+
+
+Crop: Lemons
+	Semi-Product: Citric Acid
+	Input: Lemons
+		Product: Grape Juice (Beverages)
+			Input: Grapes
+			Input: Citric Acid
+			Input: Glass
+		Product: Yogurt (Dessert)
+			Input: Milk
+			Input: Strawberry
+			Input: Citric Acid
+
+
+
 
 choose from:
 
@@ -39,9 +57,4 @@ Type: Convenience Store (Build: $500,000, Monthly: $50,000)
 	Product: Frozen Lamb
 	Product: Frozen Pork
 	Product: Fruit Snacks
-	Product: Grape Juice
-
 	Product: Ice Cream
-	Product: Yogurt
-
-

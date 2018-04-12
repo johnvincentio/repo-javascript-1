@@ -1,5 +1,7 @@
 
-Wait until products are invented.
+Wait until products are invented:
+	Product: Hand Held Game Device (Toys & Video Games)
+	Product: Video Game Console (Toys & Video Games)
 
 Type: Toy Store (Build: $500,000, Monthly: $50,000)
 	Product: Hand Held Game Device (Toys & Video Games)

@@ -1,4 +1,6 @@
 
+Sart January 1990
+
 Buy all own shares.
 
 Select Corporate brand.
@@ -9,28 +11,35 @@ Mansion.
 Apartment Building
 Commercial Building
 
+All RnD is for 5 years.
+
+Hire a Chief Operating Officer - let him do the mundane stuff.
+
 HQ:
-Add all offices.
-Set dividend > 20%
-Set my paycheck something very high
-set to allow for higher stock prices
-Set to allow for better corporate branding
+	Add all offices.
+	Set dividend > 20%
+	Set my paycheck something very high
+	set to allow for higher stock prices
+	Set to allow for better corporate branding
+
+Choose the cheapest city for labour.
 
 Raw Materials:
-Iron, Coal, Oil, Silica - close together.
-Chemical Minerals, probably best to put them together.
+	Iron, Coal, Oil, Silica - close together.
+	Chemical Minerals, probably best to put them together.
 
-Silver
-Gold
+	Silver
+	Gold
 
-Aluminium 
+	Aluminium 
 
-Timber - close to market.
+	Timber - close to market.
 
 Farms, set these up right away.
 	Crops: Cotton (Sow: February, Harvest: June)
 	Crops: Rubber (Sow: May, Harvest: February)
 	Crops: Grapes (Sow: July, Harvest: December)
+	Crops: Lemons (Sow: August, Harvest: April)
 
 Livestock:
 	Leather
@@ -63,52 +72,59 @@ Invent first:
 
 
 Drug-store.txt:
-Build factories, RnD and stores in each city.
-
-Computer-store.txt:
-Build factories, RnD and stores in each city.
+	Build factories, RnD and stores in each city.
 
 Hardware-store-1.txt:
-Build factories, RnD and stores in each city.
+	Build factories, RnD and stores in each city.
 
 Jewelry-store.txt:
-Build factories, RnD and stores in each city.
+	Build factories, RnD and stores in each city.
 
 Convenience-store-1.txt:
-Build factories, RnD and stores in each city.
+	Build factories, RnD and stores in each city.
 
 
-June, check the cotton harvest.
-Leather-store.txt:
-Build factories, RnD and stores in each city.
-Textiles factory built here.
+June 1990, check the cotton harvest.
+	Leather-store.txt:
+	Build factories, RnD and stores in each city.
+	Textiles factory built here.
 
 
-July:
-Plant grapes
+July 1990:
+Plant Grapes
 
-December:
-Check grapes harvest.
-Supermarket-store.txt:
-Build factories, RnD and stores in each city.
+August 1990:
+Plant Lemons
 
+Buy media in each city.
+	Advertise with own media.
 
-February next year, check the Rubber harvest.
-
-Automobile-store.txt:
-Build factories, RnD and stores in each city.
-
+February 1991, next year, check the Rubber harvest.
+	Automobile-store.txt:
+	Build factories, RnD and stores in each city.
 
 
-Invent done:
+April 1991, next year, check Lemons and Grapes harvest.
+	Supermarket-store.txt:
+	Build factories, RnD and stores in each city.
+
+Buy a mansion in each city.
+
+When Invent done:
+	Product: Video Camera - Oct 1992
 	Product: Dvd Player
 	Product: Mobile Phone
-	Product: Video Camera
+
+Oct 1992:
+	Invent: Handheld Game Console
+
 Hardware-store-2.txt:
-Build factories, RnD and stores in each city.
+	Build factories, RnD and stores in each city.
 
 
 Furniture-store.txt:
-Build factories, RnD and stores in each city.
+	Build factories, RnD and stores in each city.
 
 
+Invent when can:
+	Product: Video Game Console (Toys & Video Games)

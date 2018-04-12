@@ -1,4 +1,9 @@
 
+Crops: Lemons (Sow: August, Harvest: April)
+
+Semi-Product: Citric Acid
+	Input: Lemons
+
 Type: Supermarket (Build: $1,000,000, Monthly: $100,000)
 
 	Product: Detergent (Chemical Products)
