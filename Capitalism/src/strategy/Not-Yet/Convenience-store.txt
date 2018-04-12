@@ -1,0 +1,31 @@
+Type: Convenience Store (Build: $500,000, Monthly: $50,000)
+	Product: Bath Lotion
+	Product: Bottled Milk
+	Product: Bread
+	Product: Cakes
+	Product: Camera
+	Product: Camera Film
+	Product: Canned Corn
+	Product: Canned Soup
+	Product: Chewing Gum
+	Product: Chocolate Bar
+	Product: Cigarettes
+	Product: Cigars
+	Product: Cola
+	Product: Cold Tablets
+	Product: Cookies
+	Product: Corn Flakes
+	Product: Cough Syrup
+	Product: Eggs
+	Product: Frozen Beef
+	Product: Frozen Chicken
+	Product: Frozen Lamb
+	Product: Frozen Pork
+	Product: Fruit Snacks
+	Product: Grape Juice
+	Product: Headache Pills
+	Product: Ice Cream
+	Product: Shampoo
+	Product: Soap
+	Product: Wine
+	Product: Yogurt

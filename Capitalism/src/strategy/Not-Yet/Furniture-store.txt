@@ -1,0 +1,6 @@
+
+Type: Furniture Store (Build: $1,000,000, Monthly: $100,000)
+	Product: Bed
+	Product: Chair
+	Product: Sofa
+	

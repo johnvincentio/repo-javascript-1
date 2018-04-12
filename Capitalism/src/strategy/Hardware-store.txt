@@ -1,0 +1,15 @@
+
+Type: Hardware Store (Build: $1,000,000, Monthly: $100,000)
+
+	Product: Air Conditioner
+	Product: Camera
+	Product: Camera Film
+	Product: Dvd Player
+
+	Product: Hi-fi
+	Product: Microwave
+	Product: Mobile Phone
+
+	Product: Television
+	Product: Video Camera
+	Product: Video Recorder

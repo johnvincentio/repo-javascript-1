@@ -1,0 +1,34 @@
+
+Crops: Rubber (Sow: May, Harvest: February)
+
+Type: Automobile Outlet (Build: $1,000,000, Monthly: $100,000)
+	Product: Car
+	Product: Motorcycle
+
+	Product: Car (Automotive)
+		Input: Car Body
+		Input: Engine
+		Input: Wheel & Tire
+	Product: Motorcycle (Automotive)
+		Input: Engine
+		Input: Steel
+		Input: Wheel & Tire
+
+	Semi-Product: Car Body
+		Input: Glass
+		Input: Plastic
+		Input: Steel
+	
+	Semi-Product: Engine
+    Input: Steel
+
+	Semi-Product: Wheel & Tire
+    Input: Steel
+		Input: Rubber
+
+RnD:
+	Car
+	Motorcycle
+	Engine
+	Car Body
+	Wheel & Tire

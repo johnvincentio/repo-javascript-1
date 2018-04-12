@@ -1,0 +1,36 @@
+
+Type: Toy Store (Build: $500,000, Monthly: $50,000)
+	Product: Hand Held Game Device (Toys & Video Games)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+
+	Product: Toy Racing Car (Toys & Video Games)
+		Input: Electronic Components
+		Input: Plastic
+
+	Product: Video Game Console (Toys & Video Games)
+		Input: Electronic Components
+		Input: Plastic
+
+RnD:
+	Hand Held Game Device
+	Toy Racing Car
+	Video Game Console
+
+
+
+probably not worth it.
+
+Product: Toy Doll
+	Input:  Cotton
+	Input:  Dyestuff
+	Input:  Textiles
+
+	Semi-Product: Dyestuff
+		Input: Oil
+		Input: Timber
+
+	Crops: Cotton (Sow: February, Harvest: June)
+		Semi-Product: Textiles
+		Input: Cotton

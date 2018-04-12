@@ -3,7 +3,18 @@
 const utils = require('./utils');
 
 if (process.argv.length < 3) {
-	console.log('Usage: node app {type}');
+	console.log('\nUsage: node app {type} {search}');
+	console.log(`Type: \n
+	\tlistStoresProducts
+	\tlistProductStores
+	\tlistNaturalResources
+	\tlistGroups
+	\tlistFarms
+	\tlistCrops
+	`);
+	console.log('Search usage: \n\tnode app search {product}');
+	console.log('\n\tFor example: node app search car');
+	console.log('\n\n');
 	return;
 }
 

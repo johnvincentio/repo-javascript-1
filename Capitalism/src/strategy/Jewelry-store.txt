@@ -1,0 +1,22 @@
+
+Type: Jewelry + Watch Store (Build: $500,000, Monthly: $50,000)
+	Product: Elegant Watch (Watches)
+		Input: Glass
+		Input: Steel
+
+	Product: Gold Ring (Jewelry)
+		Input: Gold
+
+	Product: Silver Necklace (Jewelry)
+		Input: Silver
+
+	Product: Sports Watch (Watches)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+
+RnD:
+	Elegant Watch
+	Gold Ring
+	Silver Necklace
+	Sports Watch

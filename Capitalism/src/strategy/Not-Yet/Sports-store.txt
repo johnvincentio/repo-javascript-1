@@ -1,0 +1,5 @@
+Type: Sports Store (Build: $500,000, Monthly: $50,000)
+	Product: Backpack
+	Product: Golf Clubs
+	Product: In-line Skates
+	

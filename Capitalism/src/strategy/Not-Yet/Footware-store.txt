@@ -1,0 +1,6 @@
+Type: Footwear Store (Build: $500,000, Monthly: $50,000)
+	Product: Sandals
+	Product: Shoes
+	Product: Socks
+	Product: Sport Shoes
+	

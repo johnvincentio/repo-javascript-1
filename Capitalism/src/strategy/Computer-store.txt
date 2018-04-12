@@ -1,0 +1,28 @@
+Type: Computer Store (Build: $500,000, Monthly: $50,000)
+	Product: Desktop Computer
+	Product: Notebook Computer
+	Product: Palm Computer
+	Product: Printer
+
+Group:   Computer Industry
+	Product: Desktop Computer
+		Input:  Cpu
+		Input:  Electronic Components
+		Input:  Steel
+	Product: Notebook Computer
+		Input:  Cpu
+		Input:  Electronic Components
+		Input:  Plastic
+	Product: Palm Computer
+		Input:  Cpu
+		Input:  Electronic Components
+		Input:  Plastic
+	Product: Printer
+		Input:  Electronic Components
+		Input:  Plastic
+
+RnD:
+	Desktop Computer
+	Notebook Computer
+	Palm Computer
+	Printer

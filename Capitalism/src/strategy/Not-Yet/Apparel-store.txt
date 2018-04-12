@@ -1,0 +1,6 @@
+
+Type: Apparel Store (Build: $500,000, Monthly: $50,000)
+	Product: Jeans
+	Product: Leather Jacket
+	Product: Sweater
+	

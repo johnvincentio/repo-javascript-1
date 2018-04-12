@@ -1,0 +1,8 @@
+Type: Cosmetic Store (Build: $500,000, Monthly: $50,000)
+	Product: Bath Lotion
+	Product: Eye Shadow
+	Product: Hair Color
+	Product: Lipstick
+	Product: Perfume
+	Product: Shampoo
+	Product: Soap

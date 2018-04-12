@@ -1,0 +1,65 @@
+Type: Discount Megastore (Build: $1,800,000, Monthly: $180,000)
+	Product: Air Conditioner
+	Product: Backpack
+	Product: Bath Lotion
+	Product: Bed
+	Product: Bottled Milk
+	Product: Bread
+	Product: Cakes
+	Product: Camera
+	Product: Camera Film
+	Product: Canned Corn
+	Product: Canned Soup
+	Product: Chair
+	Product: Chewing Gum
+	Product: Chocolate Bar
+	Product: Cigarettes
+	Product: Cigars
+	Product: Cola
+	Product: Cold Tablets
+	Product: Cookies
+	Product: Corn Flakes
+	Product: Cough Syrup
+	Product: Dvd Player
+	Product: Desktop Computer
+	Product: Detergent
+	Product: Eye Shadow
+	Product: Fruit Snacks
+	Product: Golf Clubs
+	Product: Grape Juice
+	Product: Hair Color
+	Product: Handheld Game Device
+	Product: Headache Pills
+	Product: Hi-fi
+	Product: Ice Cream
+	Product: In-line Skates
+	Product: Jeans
+	Product: Leather Bag
+	Product: Leather Belt
+	Product: Leather Briefcase
+	Product: Leather Jacket
+	Product: Leather Wallet
+	Product: Lipstick
+	Product: Microwave
+	Product: Mobile Phone
+	Product: Notebook Computer
+	Product: Palm Computer
+	Product: Perfume
+	Product: Printer
+	Product: Sandals
+	Product: Shampoo
+	Product: Shoes
+	Product: Soap
+	Product: Socks
+	Product: Sofa
+	Product: Sport Shoes
+	Product: Sweater
+	Product: Television
+	Product: Toilet Cleaner
+	Product: Toothpaste
+	Product: Toy Doll
+	Product: Toy Racing Car
+	Product: Video Camera
+	Product: Video Game Console
+	Product: Video Recorder
+	

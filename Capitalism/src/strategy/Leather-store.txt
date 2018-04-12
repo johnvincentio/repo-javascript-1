@@ -1,0 +1,29 @@
+
+Crops: Cotton (Sow: February, Harvest: June)
+	Semi-Product: Textiles
+	Input: Cotton
+
+
+Type: Leather Store (Build: $500,000, Monthly: $50,000)
+	Product: Leather Bag
+	Product: Leather Belt
+	Product: Leather Briefcase
+	Product: Leather Wallet
+
+	Product: Leather Bag (Leather Goods)
+		Input: Leather
+		Input: Textiles
+	Product: Leather Belt (Leather Goods)
+		Input: Leather
+		Input: Steel
+	Product: Leather Briefcase (Leather Goods)
+		Input: Leather
+		Input: Textiles
+	Product: Leather Wallet (Leather Goods)
+		Input: Leather
+
+RnD:
+	Leather Bag
+	Leather Belt
+	Leather Briefcase
+	Leather Wallet

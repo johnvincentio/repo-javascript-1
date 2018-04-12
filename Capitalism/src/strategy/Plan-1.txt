@@ -1,0 +1,89 @@
+
+Buy all own shares.
+
+Select Corporate brand.
+
+Choose the most populous:
+Headquarters.
+Mansion.
+Apartment Building
+Commercial Building
+
+HQ:
+Add all offices.
+Set dividend > 20%
+Set my paycheck something very high
+set to allow for higher stock prices
+Set to allow for better corporate branding
+
+Raw Materials:
+Iron, Coal, Oil, Silica - close together.
+Chemical Minerals, probably best to put them together.
+
+Silver
+Gold
+
+Aluminium 
+
+Timber - close to market.
+
+Farms:
+	Crops: Rubber (Sow: May, Harvest: February)
+	Crops: Cotton (Sow: February, Harvest: June)
+	Crops: Sugar (Sow: March, Harvest: September)
+	Crops: Wheat (Sow: August, Harvest: April)
+
+Livestock:
+	Leather
+
+Factories:
+	Coal + Iron -> Steel
+	Oil -> Plastic
+	Silica -> Silicon
+	Silica -> Glass
+	Silicon -> CPU
+	Chemical Minerals + Silicon + Steel -> Electronic Components
+
+
+RND:
+	Steel
+	Plastic
+	Silicon
+	Glass
+	CPU
+	Electronic Components
+
+RnD not yet invented:
+	Hand Held Game Device
+	Video Game Console
+
+
+Drug-store.txt:
+Build factories, RnD and stores in each city.
+
+Computer-store.txt:
+Build factories, RnD and stores in each city.
+
+Jewelry-store.txt:
+Build factories, RnD and stores in each city.
+
+
+June, check the cotton harvest.
+Leather-store.txt:
+Build factories, RnD and stores in each city.
+
+
+
+
+
+February next year, check the Rubber harvest.
+
+Automobile-store.txt:
+Build factories, RnD and stores in each city.
+
+
+
+
+
+
+
