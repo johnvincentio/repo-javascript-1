@@ -1,0 +1,25 @@
+
+Type: Hardware Store (Build: $1,000,000, Monthly: $100,000)
+
+	Product: Hi Fi (Electrical Products)
+		Input: Aluminum
+		Input: Electronic Components
+		Input: Steel
+	Product: Microwave (Electrical Products)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Television (Electrical Products)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+	Product: Video Recorder (Electronics)
+		Input: Electronic Components
+		Input: Glass
+		Input: Steel
+
+RnD:
+	Hi-fi
+	Microwave
+	Television
+	Video Recorder

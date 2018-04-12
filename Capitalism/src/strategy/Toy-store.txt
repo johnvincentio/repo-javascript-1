@@ -1,4 +1,6 @@
 
+Wait until products are invented.
+
 Type: Toy Store (Build: $500,000, Monthly: $50,000)
 	Product: Hand Held Game Device (Toys & Video Games)
 		Input: Electronic Components
@@ -12,6 +14,10 @@ Type: Toy Store (Build: $500,000, Monthly: $50,000)
 	Product: Video Game Console (Toys & Video Games)
 		Input: Electronic Components
 		Input: Plastic
+
+Not yet invented:
+	Hand Held Game Device
+	Video Game Console
 
 RnD:
 	Hand Held Game Device

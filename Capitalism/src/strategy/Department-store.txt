@@ -1,0 +1,80 @@
+
+Type: Department Store (Build: $1,000,000, Monthly: $100,000)
+
+
+
+
+
+
+
+
+
+
+requires a lot, probably not worth it.
+
+Product: Hair Color (Cosmetics)
+	Input: Dyestuff
+	Input: Plastic
+	Input: Wheat Germ Oil
+Product: Lipstick (Cosmetics)
+	Input:  Dyestuff
+	Input:  Plastic
+	Input:  Wheat Germ Oil
+
+RnD:
+	Hair Color
+	Lipstick
+
+
+
+
+
+
+Type: Department Store (Build: $1,000,000, Monthly: $100,000)
+	Product: Air Conditioner
+	Product: Backpack
+	Product: Bath Lotion
+	Product: Bed
+	Product: Camera
+	Product: Camera Film
+	Product: Chair
+	Product: Dvd Player
+	Product: Desktop Computer
+	Product: Elegant Watch
+	Product: Eye Shadow
+	Product: Gold Ring
+	Product: Golf Clubs
+	Product: Handheld Game Device
+	Product: Hi-fi
+	Product: In-line Skates
+	Product: Jeans
+	Product: Leather Bag
+	Product: Leather Belt
+	Product: Leather Briefcase
+	Product: Leather Jacket
+	Product: Leather Wallet
+	Product: Microwave
+	Product: Mobile Phone
+	Product: Notebook Computer
+	Product: Palm Computer
+	Product: Perfume
+	Product: Printer
+	Product: Sandals
+	Product: Shampoo
+	Product: Shoes
+	Product: Silver Necklace
+	Product: Soap
+	Product: Socks
+	Product: Sofa
+	Product: Sport Shoes
+	Product: Sports Watch
+	Product: Sweater
+	Product: Television
+	Product: Toy Doll
+	Product: Toy Racing Car
+	Product: Video Camera
+	Product: Video Game Console
+	Product: Video Recorder
+	Product: Wine
+	Product: Yogurt
+	

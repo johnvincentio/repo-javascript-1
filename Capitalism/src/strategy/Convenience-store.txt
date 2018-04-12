@@ -1,0 +1,70 @@
+
+Type: Convenience Store (Build: $500,000, Monthly: $50,000)
+
+	Product: Camera (Photography)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+
+	Product: Camera Film (Photography)
+		Input: Chemical Minerals
+		Input: Silver
+		Input: Plastic
+
+	Product: Headache Pills (Drugs)
+		Input: Chemical Minerals
+		Input: Plastic
+
+	Product: Shampoo (Bath Supplies)
+		Input: Chemical Minerals
+		Input: Plastic
+
+
+RnD:
+	Camera
+	Camera Film
+	Headache Pills
+	Shampoo
+
+
+
+Requires coconut oil...
+
+	Product: Bath Lotion (Bath Supplies)
+		Input: Chemical Minerals
+		Input: Coconut Oil
+		Input: Plastic
+	Product: Soap (Bath Supplies)
+		Input: Citric Acid
+		Input: Coconut Oil
+		Input: Paper
+
+
+Type: Convenience Store (Build: $500,000, Monthly: $50,000)
+	Product: Bottled Milk
+	Product: Bread
+	Product: Cakes
+
+	Product: Canned Corn
+	Product: Canned Soup
+	Product: Chewing Gum
+	Product: Chocolate Bar
+	Product: Cigarettes
+	Product: Cigars
+	Product: Cola
+
+	Product: Cookies
+	Product: Corn Flakes
+
+	Product: Eggs
+	Product: Frozen Beef
+	Product: Frozen Chicken
+	Product: Frozen Lamb
+	Product: Frozen Pork
+	Product: Fruit Snacks
+	Product: Grape Juice
+
+	Product: Ice Cream
+	Product: Yogurt
+
+

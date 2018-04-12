@@ -1,0 +1,17 @@
+
+Invent when can:
+
+	Product: Palm Computer
+		Input:  Cpu
+		Input:  Electronic Components
+		Input:  Plastic
+
+	Product: Hand Held Game Device (Toys & Video Games)
+		Input: Electronic Components
+		Input: Glass
+		Input: Plastic
+
+	Product: Video Game Console (Toys & Video Games)
+		Input: Electronic Components
+		Input: Plastic
+	

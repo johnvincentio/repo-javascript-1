@@ -10,45 +10,12 @@ Type: Drug Store (Build: $500,000, Monthly: $50,000)
 	Product: Eye Shadow (Cosmetics)
 		Input: Chemical Minerals
 		Input: Plastic
-	Product: Headache Pills (Drugs)
+	Product: Perfume (Cosmetics)
 		Input: Chemical Minerals
-		Input: Plastic
+		Input: Glass
 
 RnD:
 	Cold Tablets
 	Cough Syrup
 	Eye Shadow
-	Headache Pills
-
-	Product: Shampoo (Bath Supplies)
-		Input: Chemical Minerals
-		Input: Plastic
-	Product: Perfume (Cosmetics)
-		Input: Chemical Minerals
-		Input: Glass
-
-	Product: Hair Color (Cosmetics)
-		Input: Dyestuff
-		Input: Plastic
-		Input: Wheat Germ Oil
-	Product: Lipstick (Cosmetics)
-		Input:  Dyestuff
-		Input:  Plastic
-		Input:  Wheat Germ Oil
-
-RnD:
-	Shampoo
 	Perfume
-	Hair Color
-	Lipstick
-
-Requires coconut oil...
-
-	Product: Bath Lotion (Bath Supplies)
-		Input: Chemical Minerals
-		Input: Coconut Oil
-		Input: Plastic
-	Product: Soap (Bath Supplies)
-		Input: Citric Acid
-		Input: Coconut Oil
-		Input: Paper

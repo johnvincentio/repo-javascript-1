@@ -1,0 +1,24 @@
+
+Type: Hardware Store (Build: $1,000,000, Monthly: $100,000)
+
+	Product: Air Conditioner (Electrical Products)
+		Input: Electronic Components
+		Input: Steel
+
+
+Invent first:
+	Product: Dvd Player
+	Product: Mobile Phone
+	Product: Video Camera
+
+
+RnD:
+	Air Conditioner
+	Dvd Player
+	Mobile Phone
+	Video Camera
+
+Invent:
+	Dvd Player
+	Mobile Phone
+	Video Camera

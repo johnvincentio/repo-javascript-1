@@ -1,0 +1,22 @@
+
+Type: Supermarket (Build: $1,000,000, Monthly: $100,000)
+
+	Product: Detergent (Chemical Products)
+		Input: Chemical Minerals
+		Input: Citric Acid
+		Input: Plastic
+
+	Product: Toilet Cleaner (Chemical Products)
+		Input: Chemical Minerals
+		Input: Plastic
+
+	Product: Toothpaste (Chemical Products)
+		Input: Chemical Minerals
+		Input: Plastic
+
+	Product: Wine (Beverages)
+		Input: Grapes
+		Input: Glass
+
+
+All other products are more cheaply sold at Convenience stores.
