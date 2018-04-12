@@ -53,13 +53,16 @@ Factories:
 	Chemical Minerals + Silicon + Steel -> Electronic Components
 
 
-RND:
+RnD:
 	Steel
 	Plastic
 	Silicon
 	Glass
 	CPU
 	Electronic Components
+
+	Citric Acid
+	Textiles
 
 RnD not yet invented:
 
@@ -69,6 +72,11 @@ Invent first:
 	Notebook Computer
 	Video Camera
 	Inline skates (because it is there)
+
+RnD:
+	Product: Air Conditioner 
+	Product: Desktop Computer
+	Product: Printer
 
 
 Drug-store.txt:
@@ -110,21 +118,51 @@ April 1991, next year, check Lemons and Grapes harvest.
 
 Buy a mansion in each city.
 
+Buy apartment building in each city.
+Buy commercial building in each city.
+
 When Invent done:
 	Product: Video Camera - Oct 1992
 	Product: Dvd Player
-	Product: Mobile Phone
+	Product: Mobile Phone - Feb 1994
 
 Oct 1992:
-	Invent: Handheld Game Console
+	Invent: Hand Held Game Device
 
-Hardware-store-2.txt:
-	Build factories, RnD and stores in each city.
+Feb 1994:
+	Invent: Palm Computer
+	Invent: Video Game Console
+
+When invented:
+	Product: Dvd Player - Jan 1995
+	Product: Mobile Phone - Feb 1994
+	Product: Video Camera - Oct 1992
+
+	Hardware-store-2.txt:
+		Build factories, RnD and stores in each city.
+
+Buy apartment building in each city, look for profitability.
+Buy commercial building in each city.
+
+
+When invented:
+	Product: Palm Computer - March 1998
+
+	Computer-store.txt:
+		Build factories, RnD and stores in each city.
+
+Check product statistics for each city.
+Ensure all is profitable.
+Check market share. Look for opportunities to open more stores.
+
+
+When invented:
+	Product: Hand Held Game Device (Toys & Video Games) - Sept 1996
+	Product: Video Game Console (Toys & Video Games) - March 1998
+
+	Toy-store.txt:
+		Build factories, RnD and stores in each city.
 
 
 Furniture-store.txt:
 	Build factories, RnD and stores in each city.
-
-
-Invent when can:
-	Product: Video Game Console (Toys & Video Games)
