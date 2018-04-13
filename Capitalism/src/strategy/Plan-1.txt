@@ -151,10 +151,6 @@ When invented:
 	Computer-store.txt:
 		Build factories, RnD and stores in each city.
 
-Check product statistics for each city.
-Ensure all is profitable.
-Check market share. Look for opportunities to open more stores.
-
 
 When invented:
 	Product: Hand Held Game Device (Toys & Video Games) - Sept 1996
@@ -164,5 +160,35 @@ When invented:
 		Build factories, RnD and stores in each city.
 
 
+Check product statistics for each city.
+Ensure all is profitable.
+Check market share. Look for opportunities to open more stores.
+
+Build another Computer-store in each city.
+
+Build another Hardware-store-2 in each city.
+
 Furniture-store.txt:
 	Build factories, RnD and stores in each city.
+
+
+Stores: Department Store
+
+	Product: Sports Watch
+	Product: Sports Watch
+	Product: Video Camera
+	Product: Video Game Console
+
+Stores: Drug Store
+	Product: Shampoo
+	Product: Cold Tablets
+	Product: Cough Syrup
+	Product: Headache Pills
+
+
+Stores: Supermarket
+	Product: Detergent
+	Product: Toothpaste
+	Product: Shampoo
+	Product: Camera Film
+
