@@ -6,7 +6,8 @@
   "scripts": {
     "eslint_versions": "npm info eslint-config-airbnb@latest peerDependencies",
     "test5": "mocha src/1/5/test",
-    "test6": "mocha src/1/6/test"
+    "test6": "mocha src/1/6/test",
+    "test7": "mocha src/1/7/test"
   },
   "keywords": [],
   "author": "",
