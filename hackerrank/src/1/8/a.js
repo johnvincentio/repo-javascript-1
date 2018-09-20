@@ -59,19 +59,11 @@ function handleLevel(scenarios, arr, level, power, bullets) {
 		arr[level] = {
 			enemy,
 			power: power[level][enemy],
-			bullets: bullets[level][enemy],
-			gained: bullets[level][enemy] - power[level][enemy]
+			bullets: bullets[level][enemy]
 		};
 		handleLevel(scenarios, arr, level + 1, power, bullets);
 	}
 }
-
-// function handleScenarios(scenarios, power, bullets) {
-// 	const arr = [];
-// 	for (let i = 0; i < scenarios.length; i++) {
-// 		arr[i] = scenarios[i];
-// 	}
-// }
 
 function superHero(power, bullets) {
 	console.error('--- superHero; power ', power, ' bullets ', bullets);
@@ -81,7 +73,7 @@ function superHero(power, bullets) {
 	console.error('numberOfLevels ', numberOfLevels, ' numberOfEnemies ', numberOfEnemies);
 
 	// const scenarios = Array(numberOfLevels * numberOfEnemies);
-	const scenarios1 = [];
+	const scenarios = [];
 
 	const arr = Array(numberOfLevels);
 	for (let i = 0; i < numberOfLevels; i++) {
@@ -89,15 +81,34 @@ function superHero(power, bullets) {
 	}
 
 	const level = 0;
-	handleLevel(scenarios1, arr, level, power, bullets);
-	for (let i = 0; i < scenarios1.length; i++) {
-		console.error('scenarios1; i ', i, ' path ', scenarios1[i].path);
+	handleLevel(scenarios, arr, level, power, bullets);
+
+	let minBullettsUsed = Number.MAX_SAFE_INTEGER;
+
+	for (let i = 0; i < scenarios.length; i++) {
+		const { path } = scenarios[i];
+		let bulletsCaptured = 0;
+		let bulletsUsed = 0;
+		// console.error('scenarios #', i, ' path ', path);
+
+		for (let j = 0; j < path.length; j++) {
+			// console.error('i ', i, ' j ', j, ' path ', path, ' power ', path[j].power, ' bulletts ', path[j].bullets);
+			if (path[j].power > bulletsCaptured) {
+				bulletsUsed += path[j].power - bulletsCaptured;
+			}
+			bulletsCaptured = path[j].bullets;
+		}
+		if (bulletsUsed < minBullettsUsed) minBullettsUsed = bulletsUsed;
+		scenarios[i].bullets = { used: bulletsUsed, captured: bulletsCaptured };
 	}
 
-	// const scenarios2 = handleScenarios(scenarios1, power, bullets);
-	// console.error('scenarios2 ', scenarios2);
+	for (let i = 0; i < scenarios.length; i++) {
+		const { path } = scenarios[i];
+		console.error('scenarios #', i, ' bullets ', scenarios[i].bullets, ' path ', path);
+	}
+	console.error('minBullettsUsed ', minBullettsUsed);
 
-	return 20;
+	return minBullettsUsed;
 }
 
 convert.main = function main(input) {

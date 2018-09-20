@@ -19,7 +19,10 @@ describe('test', () => {
 			'1 2 3', // Bullets of enemy, at the level zero
 			'7 8 9'
 		];
-		a.main(input).should.equal([1, 5]);
+		const result = a.main(input);
+		result.should.be.a('array');
+		result.length.should.equal(1);
+		result[0].should.equal(2);
 	});
 
 	it('2', () => {
@@ -46,6 +49,11 @@ describe('test', () => {
 			'1 1 1',
 			'1 1 1'
 		];
-		a.main(input).should.equal([1, 5]);
+		const result = a.main(input);
+		result.should.be.a('array');
+		result.length.should.equal(2);
+		result[0].should.equal(1);
+		result[0].should.equal(5);
+		// a.main(input).should.equal([1, 5]);
 	});
 });
