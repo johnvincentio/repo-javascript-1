@@ -12,12 +12,12 @@ const inputString = alpha
 
 const a = require('../../a');
 
-describe.skip('test-2', () => {
+describe('test-data-2', () => {
 	it('1', () => {
 		const result = a.main(inputString);
 		result.should.be.a('array');
 		result.length.should.equal(1);
-		result[0].should.equal(101);
+		result[0].should.equal(106);
 	});
 });
 

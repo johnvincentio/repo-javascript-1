@@ -6,7 +6,7 @@ const should = require('chai').should();
 
 const a = require('../a');
 
-describe.only('test-1', () => {
+describe('test-1', () => {
 	it('1', () => {
 		const input = [
 			'1', // test cases
