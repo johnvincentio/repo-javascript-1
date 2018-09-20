@@ -68,19 +68,11 @@ function handleLevel(arr, level) {
 	// prettier-ignore
 	// console.error('--- handleLevel; arr ', arr, ' level ', level, ' numberOfLevels ', numberOfLevels, ' numberOfEnemies ', numberOfEnemies);
 	if (level >= numberOfLevels) {
-		// console.error('max levels found; arr ', arr);
-		// console.error('scenario found ', arr.slice(0));
-		// scenarios.push({ path: arr.slice(0) });
 		handleBulletCount(arr);
 		return;
 	}
 	for (let enemy = 0; enemy < numberOfEnemies; enemy++) {
 		arr[level] = enemy;
-		// {
-		// 	enemy
-		// 	power: POWER[level][enemy],
-		// 	bullets: BULLETS[level][enemy]
-		// };
 		handleLevel(arr, level + 1);
 	}
 }
