@@ -66,8 +66,12 @@ function handleLevel(bulletsUsed, bulletsCaptured, level) {
 		// console.error('max level found; bulletsUsed ', bulletsUsed, ' minBullettsUsed ', minBullettsUsed);
 		if (bulletsUsed < minBullettsUsed) {
 			minBullettsUsed = bulletsUsed;
-			// console.error('new minBullettsUsed ', minBullettsUsed);
+			console.error('new minBullettsUsed ', minBullettsUsed);
 		}
+		return;
+	}
+
+	if (bulletsUsed >= minBullettsUsed) {
 		return;
 	}
 
@@ -76,7 +80,7 @@ function handleLevel(bulletsUsed, bulletsCaptured, level) {
 		// console.error('handleLevel; level ', level, ' enemy ', enemy, ' power ', POWER[level][enemy], ' bullets ', BULLETS[level][enemy], ' bulletsUsed ', bulletsUsed, ' bulletsCaptured ', bulletsCaptured);
 
 		let usedNow = bulletsUsed;
-		usedNow = POWER[level][enemy] > bulletsCaptured ? POWER[level][enemy] - bulletsCaptured : bulletsUsed;
+		// usedNow = POWER[level][enemy] > bulletsCaptured ? POWER[level][enemy] - bulletsCaptured : bulletsUsed;
 		if (POWER[level][enemy] > bulletsCaptured) {
 			usedNow = bulletsUsed + POWER[level][enemy] - bulletsCaptured;
 		}

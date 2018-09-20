@@ -3,7 +3,7 @@
 const fs = require('fs');
 const should = require('chai').should();
 
-const alpha = fs.readFileSync('./src/1/8/test/testcase-17/input-2.txt').toString();
+const alpha = fs.readFileSync('./src/1/8/test/testcase-17/input-all.txt').toString();
 const inputString = alpha
 	.trim()
 	.split('\n')
@@ -12,7 +12,7 @@ const inputString = alpha
 
 const a = require('../../a');
 
-describe.skip('test-2', () => {
+describe.only('test-2', () => {
 	it('1', () => {
 		const result = a.main(inputString);
 		result.should.be.a('array');
