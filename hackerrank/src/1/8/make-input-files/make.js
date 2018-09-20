@@ -9,9 +9,18 @@ function convert(filename) {
 		.trim()
 		.split('\n')
 		.map(str => str.trim());
-	console.error('data ', data);
+	// console.error('data ', data);
+	console.log('contents.length ', contents.length);
 
-	fs.writeFileSync(`${filename}.txt`, contents);
+	const logger = fs.createWriteStream(`${filename}.txt`, {
+		flags: 'w'
+	});
+
+	contents.forEach(line => {
+		logger.write(`${line}\n`);
+	});
+
+	logger.end();
 }
 
 convert('input17');

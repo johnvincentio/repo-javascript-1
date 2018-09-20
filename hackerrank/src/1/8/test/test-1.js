@@ -6,7 +6,7 @@ const should = require('chai').should();
 
 const a = require('../a');
 
-describe('test-1', () => {
+describe.skip('test-1', () => {
 	it('1', () => {
 		const input = [
 			'1', // test cases
@@ -53,10 +53,10 @@ describe('test-1', () => {
 		result.should.be.a('array');
 		result.length.should.equal(2);
 		result[0].should.equal(1);
-		result[0].should.equal(5);
+		result[1].should.equal(5);
 	});
 
-	it.only('3a', () => {
+	it('3a', () => {
 		const input = [
 			'1', // test cases
 
@@ -72,7 +72,7 @@ describe('test-1', () => {
 		result[0].should.equal(3);
 	});
 
-	it.only('3b', () => {
+	it('3b', () => {
 		const input = [
 			'1', // test cases
 
@@ -88,7 +88,7 @@ describe('test-1', () => {
 		result[0].should.equal(1);
 	});
 
-	it.only('3c', () => {
+	it('3c', () => {
 		const input = [
 			'1', // test cases
 

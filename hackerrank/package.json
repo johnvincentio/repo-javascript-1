@@ -8,7 +8,7 @@
     "test5": "mocha src/1/5/test",
     "test6": "mocha src/1/6/test",
     "test7": "mocha src/1/7/test",
-    "test8": "mocha src/1/8/test"
+    "test8": "mocha --recursive src/1/8/test"
   },
   "keywords": [],
   "author": "",
