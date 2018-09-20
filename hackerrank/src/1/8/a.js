@@ -15,7 +15,6 @@ Each of next N lines of a test case contain:
 Each of the next N lines of a test case contains:
 	M space separated integers, where jth integer in the ith line denotes the number of bullets B jth enemy of ith level has.
 
-
 Constraints 
 1 <= T <= 100
 1 <= N <= 100
@@ -23,14 +22,6 @@ Constraints
 1 <= P, B <= 1000
 
 For each test file, sum of N x M over all the test cases does not exceed 5*10**5
-
-
-for each row
-	for each column
-
-	endfor
-
-endfor
 */
 
 /* eslint-disable no-plusplus */
@@ -61,20 +52,19 @@ function superHero(power, bullets) {
 	minBullettsUsed = Number.MAX_SAFE_INTEGER;
 	// console.error('numberOfLevels ', numberOfLevels, ' numberOfEnemies ', numberOfEnemies);
 
-	const scenarios = [];
 	const arr = Array(numberOfLevels);
 	for (let i = 0; i < numberOfLevels; i++) {
 		arr[i] = -1;
 	}
 	const level = 0;
-	handleLevel(scenarios, arr, level);
+	handleLevel(arr, level);
 
 	console.error('minBullettsUsed ', minBullettsUsed);
 
 	return minBullettsUsed;
 }
 
-function handleLevel(scenarios, arr, level) {
+function handleLevel(arr, level) {
 	// prettier-ignore
 	// console.error('--- handleLevel; arr ', arr, ' level ', level, ' numberOfLevels ', numberOfLevels, ' numberOfEnemies ', numberOfEnemies);
 	if (level >= numberOfLevels) {
@@ -85,12 +75,13 @@ function handleLevel(scenarios, arr, level) {
 		return;
 	}
 	for (let enemy = 0; enemy < numberOfEnemies; enemy++) {
-		arr[level] = {
-			enemy,
-			power: POWER[level][enemy],
-			bullets: BULLETS[level][enemy]
-		};
-		handleLevel(scenarios, arr, level + 1);
+		arr[level] = enemy;
+		// {
+		// 	enemy
+		// 	power: POWER[level][enemy],
+		// 	bullets: BULLETS[level][enemy]
+		// };
+		handleLevel(arr, level + 1);
 	}
 }
 
@@ -100,18 +91,22 @@ function handleBulletCount(path) {
 	let bulletsCaptured = 0;
 	let bulletsUsed = 0;
 
-	for (let j = 0; j < path.length; j++) {
-		// console.error('i ', i, ' j ', j, ' path ', path, ' power ', path[j].power, ' bulletts ', path[j].bullets);
-		if (path[j].power > bulletsCaptured) {
-			bulletsUsed += path[j].power - bulletsCaptured;
+	for (let level = 0; level < path.length; level++) {
+		const enemy = path[level];
+
+		// prettier-ignore
+		// console.error('level ',	level, ' enemy ', enemy, ' power ', POWER[level][enemy], ' bulletts ', BULLETS[level][enemy]);
+
+		if (POWER[level][enemy] > bulletsCaptured) {
+			bulletsUsed += POWER[level][enemy] - bulletsCaptured;
 		}
-		bulletsCaptured = path[j].bullets;
+		bulletsCaptured = BULLETS[level][enemy];
 	}
 
-	console.error('bulletsUsed ', bulletsUsed, ' path ', path);
+	// console.error('bulletsUsed ', bulletsUsed, ' path ', path);
 	if (bulletsUsed < minBullettsUsed) {
 		minBullettsUsed = bulletsUsed;
-		console.error('new minBullettsUsed ', minBullettsUsed);
+		// console.error('new minBullettsUsed ', minBullettsUsed);
 	}
 }
 
