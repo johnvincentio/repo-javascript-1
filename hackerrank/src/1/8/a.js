@@ -1,6 +1,8 @@
 //
 
 /*
+https://www.hackerrank.com/challenges/a-super-hero/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+
 Input Format
 
 First line of input contains a single integer T denoting the number of test cases. 
