@@ -45,28 +45,34 @@ function readLine() {
 	return inputString[currentLine++];
 }
 
-function handleLevel(scenarios, arr, level, power) {
+function handleLevel(scenarios, arr, level, power, bullets) {
 	const numberOfLevels = power.length;
 	const numberOfEnemies = power[0].length;
 	// prettier-ignore
 	// console.error('--- handleLevel; arr ', arr, ' level ', level, ' numberOfLevels ', numberOfLevels, ' numberOfEnemies ', numberOfEnemies);
 	if (level >= numberOfLevels) {
 		// console.error('max levels found; arr ', arr);
-		scenarios.push(arr.slice(0));
+		scenarios.push({ path: arr.slice(0) });
 		return;
 	}
 	for (let enemy = 0; enemy < numberOfEnemies; enemy++) {
-		arr[level] = enemy;
-		handleLevel(scenarios, arr, level + 1, power);
+		arr[level] = {
+			enemy,
+			power: power[level][enemy],
+			bullets: bullets[level][enemy],
+			gained: bullets[level][enemy] - power[level][enemy]
+		};
+		handleLevel(scenarios, arr, level + 1, power, bullets);
 	}
 }
 
-function handleScenarios(scenarios, power, bullets) {
-	const arr = [];
-	for (let i = 0; i < scenarios.length; i++) {
-		arr[i] = scenarios[i];
-	}
-}
+// function handleScenarios(scenarios, power, bullets) {
+// 	const arr = [];
+// 	for (let i = 0; i < scenarios.length; i++) {
+// 		arr[i] = scenarios[i];
+// 	}
+// }
+
 function superHero(power, bullets) {
 	console.error('--- superHero; power ', power, ' bullets ', bullets);
 
@@ -83,11 +89,13 @@ function superHero(power, bullets) {
 	}
 
 	const level = 0;
-	handleLevel(scenarios1, arr, level, power);
-	console.error('scenarios1 ', scenarios1);
+	handleLevel(scenarios1, arr, level, power, bullets);
+	for (let i = 0; i < scenarios1.length; i++) {
+		console.error('scenarios1; i ', i, ' path ', scenarios1[i].path);
+	}
 
-	const scenarios2 = handleScenarios(scenarios1, power, bullets);
-	console.error('scenarios2 ', scenarios2);
+	// const scenarios2 = handleScenarios(scenarios1, power, bullets);
+	// console.error('scenarios2 ', scenarios2);
 
 	return 20;
 }
