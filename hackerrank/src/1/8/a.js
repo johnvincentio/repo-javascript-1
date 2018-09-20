@@ -54,53 +54,34 @@ function superHero(power, bullets) {
 	minBullettsUsed = Number.MAX_SAFE_INTEGER;
 	// console.error('numberOfLevels ', numberOfLevels, ' numberOfEnemies ', numberOfEnemies);
 
-	const arr = Array(numberOfLevels);
-	for (let i = 0; i < numberOfLevels; i++) {
-		arr[i] = -1;
-	}
-	const level = 0;
-	handleLevel(arr, level);
+	handleLevel(0, 0, 0);
 
 	console.error('minBullettsUsed ', minBullettsUsed);
 
 	return minBullettsUsed;
 }
 
-function handleLevel(arr, level) {
-	// prettier-ignore
-	// console.error('--- handleLevel; arr ', arr, ' level ', level, ' numberOfLevels ', numberOfLevels, ' numberOfEnemies ', numberOfEnemies);
+function handleLevel(bulletsUsed, bulletsCaptured, level) {
 	if (level >= numberOfLevels) {
-		handleBulletCount(arr);
+		// console.error('max level found; bulletsUsed ', bulletsUsed, ' minBullettsUsed ', minBullettsUsed);
+		if (bulletsUsed < minBullettsUsed) {
+			minBullettsUsed = bulletsUsed;
+			// console.error('new minBullettsUsed ', minBullettsUsed);
+		}
 		return;
 	}
+
 	for (let enemy = 0; enemy < numberOfEnemies; enemy++) {
-		arr[level] = enemy;
-		handleLevel(arr, level + 1);
-	}
-}
-
-function handleBulletCount(path) {
-	// console.error('handleBulletCount; path ', path);
-
-	let bulletsCaptured = 0;
-	let bulletsUsed = 0;
-
-	for (let level = 0; level < path.length; level++) {
-		const enemy = path[level];
-
 		// prettier-ignore
-		// console.error('level ',	level, ' enemy ', enemy, ' power ', POWER[level][enemy], ' bulletts ', BULLETS[level][enemy]);
+		// console.error('handleLevel; level ', level, ' enemy ', enemy, ' power ', POWER[level][enemy], ' bullets ', BULLETS[level][enemy], ' bulletsUsed ', bulletsUsed, ' bulletsCaptured ', bulletsCaptured);
 
+		let usedNow = bulletsUsed;
+		usedNow = POWER[level][enemy] > bulletsCaptured ? POWER[level][enemy] - bulletsCaptured : bulletsUsed;
 		if (POWER[level][enemy] > bulletsCaptured) {
-			bulletsUsed += POWER[level][enemy] - bulletsCaptured;
+			usedNow = bulletsUsed + POWER[level][enemy] - bulletsCaptured;
 		}
-		bulletsCaptured = BULLETS[level][enemy];
-	}
-
-	// console.error('bulletsUsed ', bulletsUsed, ' path ', path);
-	if (bulletsUsed < minBullettsUsed) {
-		minBullettsUsed = bulletsUsed;
-		// console.error('new minBullettsUsed ', minBullettsUsed);
+		const capturedNow = BULLETS[level][enemy];
+		handleLevel(usedNow, capturedNow, level + 1);
 	}
 }
 

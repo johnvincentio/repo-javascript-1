@@ -12,7 +12,7 @@ const inputString = alpha
 
 const a = require('../../a');
 
-describe.only('test-2', () => {
+describe.skip('test-2', () => {
 	it('1', () => {
 		const result = a.main(inputString);
 		result.should.be.a('array');
