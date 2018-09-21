@@ -20,43 +20,40 @@ function readLine() {
 	return inputString[currentLine++];
 }
 
-function dayOfProgrammer(year) {
-	console.error('year ', year);
-	if (year < 1918) {
-		console.error('julian');
-		const leapYear = year % 4 === 0;
-		return leapYear ? `12.09.${year}` : `13.09.${year}`;
-	}
-	// only 15 days in February
-	// end of august = 230 days
-	// day is '26.09'
-	// not a leap year
-	//
-	if (year === 1918) {
-		console.error('julian 1918');
-		return '26.09.1918';
-	}
-	console.error('gregorian');
-	const leapYear = year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0);
-	return leapYear ? `12.09.${year}` : `13.09.${year}`;
+function bonAppetit(bill, k, b) {
+	console.error('bill ', bill, ' k ', k, ' b ', b);
+	const fullBill = bill.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+	const annaBill = (fullBill - bill[k]) / 2;
+	console.error('fullBill ', fullBill, ' annaBill ', annaBill);
+	const refund = b - annaBill;
+	return refund === 0 ? 'Bon Appetit' : refund;
 }
 
 /*
-Given a year ${year}, find the date of the 256th day of that year according to 
-	the official Russian calendar during that year.
+Anna and Brian are sharing a meal at a restuarant and they agree to split the bill equally.
 
-Print it in the format dd.mm.yyyy, where:
-	dd is the two-digit day
-	mm is the two-digit month
-	yyyy is ${year}
+Brian wants to order something that Anna is allergic to though, and they agree 
+	that Anna won't pay for that item.
+
+Brian gets the check and calculates Anna's portion.
+
+You must determine if his calculation is correct.
 */
 
 convert.main = function main(input) {
 	currentLine = 0;
 	inputString = input;
 
-	const year = parseInt(readLine().trim(), 10);
-	const result = dayOfProgrammer(year);
+	// prettier-ignore
+	const nk = readLine().replace(/\s+$/g, '').split(' ');
+	const n = parseInt(nk[0], 10);
+	const k = parseInt(nk[1], 10);
+	// prettier-ignore
+	const bill = readLine().replace(/\s+$/g, '').split(' ').map(billTemp => parseInt(billTemp, 10));
+	// prettier-ignore
+	const b = parseInt(readLine().trim(), 10);
+	const result = bonAppetit(bill, k, b);
+
 	console.log(`result ${result}\n`);
 	return result;
 };

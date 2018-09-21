@@ -9,41 +9,31 @@ const a = require('../a');
 describe('test', () => {
 	it('1', () => {
 		const input = [
-			'2017' //
+			'4 1', // number of items ordered, zero based index of item Anna did not eat.
+			'3 10 2 9', // bills
+			'12' // money Brian charged Anna for her share
 		];
 		const result = a.main(input);
-		result.should.equal('13.09.2017');
+		result.should.equal(5);
 	});
 
 	it('2', () => {
 		const input = [
-			'2016' //
+			'4 1', //
+			'3 10 2 9', //
+			'7' //
 		];
 		const result = a.main(input);
-		result.should.equal('12.09.2016');
+		result.should.equal('Bon Appetit');
 	});
 
 	it('3', () => {
 		const input = [
-			'1984' //
+			'3 2', // did not eat [2]
+			'2 4 6', // Anna will pay 6 / 2 = 3, total cost = 12 / 2 = 6
+			'6' //
 		];
 		const result = a.main(input);
-		result.should.equal('12.09.1984');
-	});
-
-	it('4', () => {
-		const input = [
-			'1800' //
-		];
-		const result = a.main(input);
-		result.should.equal('12.09.1800'); // Since 1800 is leap year. Day lies on 12 September
-	});
-
-	it('5', () => {
-		const input = [
-			'1918' //
-		];
-		const result = a.main(input);
-		result.should.equal('26.09.1918'); // Since 1800 is leap year. Day lies on 12 September
+		result.should.equal(3);
 	});
 });
