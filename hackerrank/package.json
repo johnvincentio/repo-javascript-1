@@ -8,6 +8,7 @@
     "grading-students": "mocha src/easy/grading-students/test",
     "apple-orange": "mocha src/easy/apple-orange/test",
     "kangaroo": "mocha src/easy/kangaroo/test",
+    "between-two-sets": "mocha src/easy/between-two-sets/test",
     "super-hero": "mocha --recursive src/hard/super-hero/test"
   },
   "keywords": [],

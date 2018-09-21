@@ -11,6 +11,17 @@
       "program": "${workspaceFolder}/index.js"
     },
     {
+      "name": "between-two-sets",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+      "stopOnEntry": false,
+      "args": ["src/easy/between-two-sets/test/**/*.js", "--no-timeouts"],
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": null,
+      "env": { "NODE_ENV": "testing" }
+    },
+    {
       "name": "kangaroo",
       "type": "node",
       "request": "launch",
