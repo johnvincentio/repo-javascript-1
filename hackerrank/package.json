@@ -13,7 +13,9 @@
     "birthday-chocolate": "mocha src/easy/birthday-chocolate/test",
     "divisible-sum-pairs": "mocha src/easy/divisible-sum-pairs/test",
     "migratory-birds": "mocha src/easy/migratory-birds/test",
-    "super-hero": "mocha --recursive src/hard/super-hero/test"
+    "super-hero": "mocha --recursive src/hard/super-hero/test",
+    "day-of-the-programmer": "mocha src/easy/day-of-the-programmer/test",
+    "bon-appetit": "mocha src/easy/bon-appetit/test"
   },
   "keywords": [],
   "author": "",
