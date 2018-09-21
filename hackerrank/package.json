@@ -12,6 +12,7 @@
     "breaking-the-records": "mocha src/easy/breaking-the-records/test",
     "birthday-chocolate": "mocha src/easy/birthday-chocolate/test",
     "divisible-sum-pairs": "mocha src/easy/divisible-sum-pairs/test",
+    "migratory-birds": "mocha src/easy/migratory-birds/test",
     "super-hero": "mocha --recursive src/hard/super-hero/test"
   },
   "keywords": [],
