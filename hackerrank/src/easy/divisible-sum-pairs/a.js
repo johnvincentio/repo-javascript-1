@@ -26,7 +26,8 @@ function divisibleSumPairs(n, k, array) {
 	for (let i1 = 0; i1 < n; i1++) {
 		for (let i2 = i1 + 1; i2 < n; i2++) {
 			const sum = array[i1] + array[i2];
-			const valid = sum > k ? sum % k === 0 : k % sum === 0;
+			// const valid = sum > k ? sum % k === 0 : k % sum === 0;
+			const valid = sum % k === 0;
 			if (valid) {
 				console.error(`valid, ${array[i1]}, ${array[i2]}`);
 				total++;
