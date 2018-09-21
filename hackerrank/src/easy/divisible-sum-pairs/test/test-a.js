@@ -9,21 +9,10 @@ const a = require('../a');
 describe('test', () => {
 	it('1', () => {
 		const input = [
-			'5', // number of squares in the chocolate bar
-			'1 2 1 3 2', // numbers on the chocolate squares
-			'3 2' // birth day, birth month
+			'6 3', // integers n and k
+			'1 3 2 6 1 2' // integers describing the values of ar[n], where n = [0, n-1]
 		];
 		const result = a.main(input);
-		result.should.equal(2);
-	});
-
-	it('2', () => {
-		const input = [
-			'5', // number of squares in the chocolate bar
-			'2 2 1 3 2', // numbers on the chocolate squares
-			'4 2' // birth day, birth month
-		];
-		const result = a.main(input);
-		result.should.equal(2); // [2,2] [1,3]
+		result.should.equal(5);
 	});
 });
