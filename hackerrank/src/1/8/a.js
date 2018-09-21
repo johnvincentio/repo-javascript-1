@@ -101,7 +101,7 @@ function handleLevel(bulletsUsed, bulletsCaptured, level) {
 /*
 handle main
 */
-convert.main = function main(input) {
+convert.main = function main(input, perform) {
 	// console.log('--- main; input ', input);
 	const jv = [];
 	currentLine = 0;
@@ -128,10 +128,11 @@ convert.main = function main(input) {
 			bullets[bulletsRowItr] = readLine().split(' ').map(bulletsTemp => parseInt(bulletsTemp, 10));
 		}
 
-		const result = superHero(power, bullets);
-		jv.push(result);
-
-		console.log(`${result}\n`);
+		if (perform[tItr]) {
+			const result = superHero(power, bullets);
+			console.log(`result ${result}\n`);
+			jv.push(result);
+		}
 	}
 	return jv;
 };

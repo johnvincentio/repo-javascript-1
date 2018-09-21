@@ -14,7 +14,7 @@ const a = require('../../a');
 
 describe.skip('test-all', () => {
 	it('1', () => {
-		const result = a.main(inputString);
+		const result = a.main(inputString, [true]);
 		result.should.be.a('array');
 		result.length.should.equal(1);
 		result[0].should.equal(1410);
