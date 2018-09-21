@@ -7,6 +7,7 @@
     "eslint_versions": "npm info eslint-config-airbnb@latest peerDependencies",
     "grading-students": "mocha src/easy/grading-students/test",
     "apple-orange": "mocha src/easy/apple-orange/test",
+    "kangaroo": "mocha src/easy/kangaroo/test",
     "super-hero": "mocha --recursive src/hard/super-hero/test"
   },
   "keywords": [],
