@@ -10,6 +10,8 @@
     "kangaroo": "mocha src/easy/kangaroo/test",
     "between-two-sets": "mocha src/easy/between-two-sets/test",
     "breaking-the-records": "mocha src/easy/breaking-the-records/test",
+    "birthday-chocolate": "mocha src/easy/birthday-chocolate/test",
+    "divisible-sum-pairs": "mocha src/easy/divisible-sum-pairs/test",
     "super-hero": "mocha --recursive src/hard/super-hero/test"
   },
   "keywords": [],
