@@ -11,6 +11,17 @@
       "program": "${workspaceFolder}/index.js"
     },
     {
+      "name": "Apple-orange",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+      "stopOnEntry": false,
+      "args": ["src/easy/apple-orange/test/**/*.js", "--no-timeouts"],
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": null,
+      "env": { "NODE_ENV": "testing" }
+    },
+    {
       // Name of configuration; appears in the launch configuration drop down menu.
       "name": "Grading-students",
       // Type of configuration. Possible values: "node", "mono".
