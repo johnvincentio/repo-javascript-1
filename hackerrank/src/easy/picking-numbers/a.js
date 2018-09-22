@@ -2,7 +2,7 @@
 
 /*
 
-https://www.hackerrank.com/challenges/drawing-book/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+https://www.hackerrank.com/challenges/picking-numbers/problem?h_r=next-challenge&h_v=zen
 
 picking-numbers
 
@@ -16,11 +16,43 @@ let currentLine = 0;
 let inputString = '';
 
 function readLine() {
-	console.error('inputString[currentLine] ', inputString[currentLine]);
+	// console.error('inputString[currentLine] ', inputString[currentLine]);
 	return inputString[currentLine++];
 }
 
-function pickingNumbers(a) {}
+function sockMerchant(n, arr) {
+	const socks = Array(100);
+	for (let i = 0; i < 100; i++) {
+		socks[i] = 0;
+	}
+	for (let i = 0; i < arr.length; i++) {
+		socks[arr[i] - 1]++;
+	}
+	let total = 0;
+	for (let i = 0; i < 100; i++) {
+		const tmp = Math.floor(socks[i] / 2);
+		total += tmp;
+	}
+	return total;
+}
+
+function pickingNumbers(a) {
+	// console.error('a; ', a);
+	const score = Array(100);
+	for (let i = 0; i < 100; i++) {
+		score[i] = 0;
+	}
+	for (let i = 0; i < a.length; i++) {
+		score[a[i] - 1]++;
+	}
+	// console.error('score ', score);
+	let longest = 0;
+	for (let i = 0, j = 1; j < 100; i++, j++) {
+		const total = score[i] + score[j];
+		if (total > longest) longest = total;
+	}
+	return longest;
+}
 
 convert.main = function main(input) {
 	currentLine = 0;
@@ -29,8 +61,7 @@ convert.main = function main(input) {
 	const n = parseInt(readLine(), 10);
 	// prettier-ignore
 	const a = readLine().split(' ').map(aTemp => parseInt(aTemp, 10));
-
-	const result = pickingNumbers(a[n]);
+	const result = pickingNumbers(a);
 
 	console.log(`result ${result}\n`);
 	return result;
