@@ -20,12 +20,10 @@ function readLine() {
 	return inputString[currentLine++];
 }
 
-function isFifteen() {}
-
 convert.create = function create() {
 	const magic = [];
 	const square = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
-	console.log('square ', square);
+	// console.log('square ', square);
 	for (let pos00 = 1; pos00 <= 9; pos00++) {
 		for (let pos01 = 1; pos01 <= 9; pos01++) {
 			if (pos01 === pos00) continue;
@@ -91,7 +89,7 @@ convert.create = function create() {
 										if (pos02 + pos11 + pos20 !== 15) continue;
 
 										magic.push([[pos00, pos01, pos02], [pos10, pos11, pos12], [pos20, pos21, pos22]]);
-										console.log('found a magic square');
+										// console.log('found a magic square');
 									}
 								}
 							}
@@ -107,8 +105,19 @@ convert.create = function create() {
 function formingMagicSquare(s) {
 	const size = s.length;
 	const magicConstant = size * ((size ** 2 + 1) / 2);
-	console.error('size ', size, ' magicConstant ', magicConstant);
+	// console.error('size ', size, ' magicConstant ', magicConstant);
 	const magicSquares = convert.create();
+	let lowestCost = Number.MAX_SAFE_INTEGER;
+	for (let i = 0; i < magicSquares.length; i++) {
+		let total = 0;
+		for (let x = 0; x < 3; x++) {
+			for (let y = 0; y < 3; y++) {
+				total += Math.abs(magicSquares[i][x][y] - s[x][y]);
+			}
+		}
+		if (total < lowestCost) lowestCost = total;
+	}
+	return lowestCost;
 }
 
 /*

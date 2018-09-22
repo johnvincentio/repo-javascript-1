@@ -16,6 +16,7 @@
     "super-hero": "mocha --recursive src/hard/super-hero/test",
     "day-of-the-programmer": "mocha src/easy/day-of-the-programmer/test",
     "bon-appetit": "mocha src/easy/bon-appetit/test",
+    "sock-merchant": "mocha src/easy/sock-merchant/test",
     "form-a-magic-square": "mocha src/medium/form-a-magic-square/test"
   },
   "keywords": [],

@@ -7,7 +7,7 @@ const should = require('chai').should();
 const a = require('../a');
 
 describe('test', () => {
-	it.only('1', () => {
+	it('1', () => {
 		const input = [
 			'4 9 2', // Each of the lines contains three space-separated integers of row s[i]
 			'3 5 7', //
