@@ -18,6 +18,7 @@
     "bon-appetit": "mocha src/easy/bon-appetit/test",
     "sock-merchant": "mocha src/easy/sock-merchant/test",
     "drawing-book": "mocha src/easy/drawing-book/test",
+    "picking-numbers": "mocha src/easy/picking-numbers/test",
     "form-a-magic-square": "mocha src/medium/form-a-magic-square/test"
   },
   "keywords": [],
