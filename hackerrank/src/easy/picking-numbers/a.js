@@ -20,22 +20,6 @@ function readLine() {
 	return inputString[currentLine++];
 }
 
-function sockMerchant(n, arr) {
-	const socks = Array(100);
-	for (let i = 0; i < 100; i++) {
-		socks[i] = 0;
-	}
-	for (let i = 0; i < arr.length; i++) {
-		socks[arr[i] - 1]++;
-	}
-	let total = 0;
-	for (let i = 0; i < 100; i++) {
-		const tmp = Math.floor(socks[i] / 2);
-		total += tmp;
-	}
-	return total;
-}
-
 function pickingNumbers(a) {
 	// console.error('a; ', a);
 	const score = Array(100);
