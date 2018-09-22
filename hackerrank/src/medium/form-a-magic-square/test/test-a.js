@@ -7,7 +7,7 @@ const should = require('chai').should();
 const a = require('../a');
 
 describe('test', () => {
-	it('1', () => {
+	it.only('1', () => {
 		const input = [
 			'4 9 2', // Each of the lines contains three space-separated integers of row s[i]
 			'3 5 7', //
@@ -62,5 +62,17 @@ cost = 4
 */
 		const result = a.main(input);
 		result.should.equal(4);
+	});
+});
+
+describe.skip('magic squares', () => {
+	it('create', () => {
+		const result = a.create();
+		result.should.be.a('array');
+		result.length.should.equal(8);
+		// result[0].should.equal(75);
+		// result[1].should.equal(67);
+		// result[2].should.equal(40);
+		// result[3].should.equal(33);
 	});
 });

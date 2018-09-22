@@ -11,6 +11,17 @@
       "program": "${workspaceFolder}/index.js"
     },
     {
+      "name": "form-a-magic-square",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
+      "stopOnEntry": false,
+      "args": ["src/medium/form-a-magic-square/test/**/*.js", "--no-timeouts"],
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": null,
+      "env": { "NODE_ENV": "testing" }
+    },
+    {
       "name": "between-two-sets",
       "type": "node",
       "request": "launch",
