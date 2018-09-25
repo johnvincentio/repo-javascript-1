@@ -21,6 +21,7 @@
     "picking-numbers": "mocha src/easy/picking-numbers/test",
     "counting-valleys": "mocha src/easy/counting-valleys/test",
     "electronics-shop": "mocha src/easy/electronics-shop/test",
+    "cut-the-sticks": "mocha src/easy/cut-the-sticks/test",
     "form-a-magic-square": "mocha src/medium/form-a-magic-square/test",
     "climbing-the-leaderboard": "mocha src/medium/climbing-the-leaderboard/test"
   },
