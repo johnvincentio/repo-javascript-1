@@ -1,0 +1,33 @@
+{
+	"extends": [
+		"airbnb",
+		"prettier"
+	],
+	"env": {
+		"node": false,
+		"browser": true,
+		"es6": false,
+		"jquery": true
+	},
+	"globals": {},
+	"rules": {
+		"no-console": 0,
+		"max-len": [
+			"error",
+			{
+				"code": 120,
+				"tabWidth": 2,
+				"comments": 120
+			}
+		],
+		"indent": [
+			2,
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"no-tabs": 0
+	},
+	"plugins": []
+}
