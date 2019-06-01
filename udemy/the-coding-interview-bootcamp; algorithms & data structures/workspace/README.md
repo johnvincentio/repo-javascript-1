@@ -9,5 +9,12 @@
 
 ```
 sudo npm install -g jest
+```
 
+## Run one test
+
+Run for Fib exercise.
+
+```
+jest fib/test.js --watch
 ```
