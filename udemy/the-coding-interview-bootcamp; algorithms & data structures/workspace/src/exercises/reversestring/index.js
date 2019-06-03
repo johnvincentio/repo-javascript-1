@@ -6,7 +6,41 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
+function reverse_for_of(str) {
+	if (!str || str.length < 2) {
+		return str;
+	}
+	let result = '';
+	for (const chr of str) {
+		result = chr + result;
+	}
+
+	return result;
+}
+
+function reverse(str) {
+	// debugger;
+	if (!str) {
+		return str;
+	}
+	return str.split('').reduce((c, v) => v + c, '');
+}
+
+// reverse('abcd');
+
+function reverse_1(str) {
+	if (!str) {
+		return str;
+	}
+	return str.split('').reduce((accumulator, chr) => {
+		return chr + accumulator;
+	}, '');
+}
+
 function reverse_split(str) {
+	if (!str || str.length < 2) {
+		return str;
+	}
 	return str
 		.split('')
 		.reverse()
@@ -32,18 +66,6 @@ function reverse_substring(str) {
 	for (let i = str.length - 1; i >= 0; i--) {
 		result += str.substring(i, i + 1);
 	}
-	return result;
-}
-
-function reverse(str) {
-	if (!str || str.length < 2) {
-		return str;
-	}
-	let result = '';
-	for (const chr of str) {
-		result = chr + result;
-	}
-
 	return result;
 }
 

@@ -47,3 +47,39 @@ for example
 npm run test chunk
 ```
 
+## Run Debugger
+
+For example, `reversestring`
+
+Add `debugger` and call
+
+```
+function reverse(str) {
+	debugger;
+	if (!str) {
+		return str;
+	}
+	return str.split('').reduce((c, v) => v + c, '');
+}
+
+reverse('abcd');
+```
+
+```
+cd workspace/src/exercises/reversestring
+
+node inspect index.js
+
+continue
+```
+
+Go to REPL mode
+
+```
+repl
+```
+
+Can query
+
+`str`
+
