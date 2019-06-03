@@ -1,3 +1,7 @@
+//
+
+/* global test, expect */
+
 const reverse = require('./index');
 
 test('Reverse function exists', () => {
