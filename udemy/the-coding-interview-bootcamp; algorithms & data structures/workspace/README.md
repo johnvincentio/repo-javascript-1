@@ -4,6 +4,16 @@
 
 [AlgoCasts](https://github.com/StephenGrider/AlgoCasts)
 
+## Helpful Editor
+
+```
+// prettier-ignore
+```
+
+```
+/* global test, expect */
+```
+
 
 ## May need to install Jest
 
