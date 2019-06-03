@@ -1,13 +1,9 @@
 {
-	"extends": [
-		"airbnb",
-		"prettier"
-	],
+	"extends": ["airbnb", "prettier"],
 	"env": {
-		"node": false,
-		"browser": true,
-		"es6": false,
-		"jquery": true
+		"node": true,
+		"browser": false,
+		"es6": true
 	},
 	"globals": {},
 	"rules": {
@@ -20,13 +16,7 @@
 				"comments": 120
 			}
 		],
-		"indent": [
-			2,
-			"tab",
-			{
-				"SwitchCase": 1
-			}
-		],
+		"indent": [2, "tab", { "SwitchCase": 1 }],
 		"no-tabs": 0
 	},
 	"plugins": []
