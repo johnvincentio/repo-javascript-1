@@ -12,6 +12,10 @@
 
 ```
 /* global test, expect */
+
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable no-plusplus */
+
 ```
 
 
