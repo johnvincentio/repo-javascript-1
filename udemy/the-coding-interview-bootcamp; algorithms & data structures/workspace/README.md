@@ -18,3 +18,32 @@ Run for Fib exercise.
 ```
 jest fib/test.js --watch
 ```
+
+## My Implementation
+
+```
+cd workspace/src/exercises
+npm i jest --save-dev
+```
+
+`package.json`
+
+```
+"scripts": {
+	"test": "jest $1 --watch"
+}
+```
+
+to run a test
+
+```
+cd workspace/src/exercises
+npm run test {folder}
+```
+
+for example
+
+```
+npm run test chunk
+```
+
