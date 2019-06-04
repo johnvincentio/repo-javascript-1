@@ -65,7 +65,7 @@ function steps_2(n) {
 	}
 }
 
-function makeChars(m, n) {
+function makeChars_5(m, n) {
 	let result = '';
 	for (let i = 0; i < n; i++) {
 		if (i < m) {
@@ -77,13 +77,13 @@ function makeChars(m, n) {
 	return result;
 }
 
-function steps(n) {
+function steps_5(n) {
 	for (let m = 1; m <= n; m++) {
-		console.log(makeChars(m, n));
+		console.log(makeChars_5(m, n));
 	}
 }
 
-function makeChars_ok(char, n) {
+function makeChars_6(char, n) {
 	let result = '';
 	for (let i = 0; i < n; i++) {
 		result += char;
@@ -91,9 +91,15 @@ function makeChars_ok(char, n) {
 	return result;
 }
 
-function steps_ok(n) {
+function steps_6(n) {
 	for (let i = 1; i <= n; i++) {
-		console.log(`${makeChars('#', i)}${makeChars(' ', n - i)}`);
+		console.log(`${makeChars_6('#', i)}${makeChars_6(' ', n - i)}`);
+	}
+}
+
+function steps(n) {
+	for (let i = 1; i <= n; i++) {
+		console.log(`${'#'.repeat(i)}${' '.repeat(n - i)}`);
 	}
 }
 
