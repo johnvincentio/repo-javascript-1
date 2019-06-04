@@ -28,7 +28,6 @@ function maxChar(str) {
 	}
 
 	for (const char in charMap) {
-		console.log('char ', char);
 		if (charMap[char] > hv) {
 			hk = char;
 			hv = charMap[char];
