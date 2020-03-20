@@ -39,20 +39,18 @@ function confirmDelete() {
 
 var intervalId = setInterval(function() {
 	var delay = 500;
-	setTimeout(function() {
-		let elCard = document.querySelector(".msg-conversations-container__conversations-list .msg-conversation-listitem");
-		console.log("elCard ", elCard);
-		elCard.click();
-	
-		setTimeout(function() {
-			deleteMessages();
-	
-			setTimeout(function() {
-				confirmDelete();
-			}, delay + 800);
-	
-		}, delay + 400);
-	
-	}, delay);
-}, 1000);
 
+	let elCard = document.querySelector(".msg-conversations-container__conversations-list .msg-conversation-listitem");
+	console.log("elCard ", elCard);
+	if (! elCard) {
+		return;
+	}
+	elCard.click();
+
+	setTimeout(function() {
+		deleteMessages();
+		setTimeout(function() {
+			confirmDelete();
+		}, 1200);
+	}, 500);
+}, 2000);
