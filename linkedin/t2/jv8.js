@@ -39,11 +39,11 @@ function confirmDelete() {
 
 let count = 0;
 var intervalId = setInterval(function() {
-	if (count > 2) return;
+	// if (count > 2) return;
 	count++;
 
 	let elCard = document.querySelector(".msg-conversations-container__conversations-list .msg-conversation-listitem");
-	console.log("elCard ", elCard);
+	// console.log("elCard ", elCard);
 	if (! elCard) {
 		return;
 	}
